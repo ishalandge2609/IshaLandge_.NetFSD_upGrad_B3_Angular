@@ -1,0 +1,73 @@
+<!--Problem 2: Simple Website Navigation System (Level-1)
+Scenario
+A small coaching institute wants a basic static website with multiple pages so students can easily navigate between sections like Home, Courses, and Contact.
+📌 Requirements
+•	Create 3 HTML pages:
+o	index.html (Home)
+o	courses.html
+o	contact.html
+•	Use:
+o	<nav> element to create a navigation menu
+o	<a> anchor tags for navigation
+•	Navigation menu should appear on all pages
+•	Use relative paths to link pages
+•	Include at least:
+o	One internal anchor link (#section)
+o	One external link (e.g., institute’s social media)
+
+🛠️ Technical Constraints
+•	Only HTML5
+•	No CSS or JavaScript
+•	Navigation must be semantic (<nav>)
+🎯 Learning Outcome
+You should be able to:
+•	Use <nav> and <a> elements
+•	Understand relative paths
+•	Build a simple multi-page navigation structure
+•	Users should move seamlessly between pages
+•	Code should be readable and well-indented
+•	Navigation links should work correctly
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 >Hii Welcome To Our Website</h1>
+        <h2>upgrad is not just any teaching platform but your best friend</h2>
+
+    </header>
+    <hr>
+    <main>
+        <section>
+            <nav>
+                <a href="index.html">Home</a>|
+                <a href="Contact.html">contact us</a>|
+                <a href="courses.html">courses</a>
+            </nav>
+            <hr>
+        </section>
+        <section>
+            <nav aria-label="breadcrumb">
+                Home
+            </nav>
+        </section>
+        <hr>
+    </main>
+    
+        <footer>
+        <p>&copy; mailus at upgrad@gmail.com</p>
+        <p>address:banglore whiteflied</p>
+    </footer>
+
+</body>
+</html>

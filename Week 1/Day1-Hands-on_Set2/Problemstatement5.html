@@ -1,0 +1,136 @@
+<!--Problem 5: College Department Information Page (Level-2)
+Scenario
+A college wants to create a basic informational webpage for one of its departments (e.g., Computer Science, Information Technology).
+The page will be used by students and parents to understand faculty details, subjects offered, and the weekly timetable before the site is enhanced with CSS and backend features.
+📌 Requirements
+Create an HTML webpage that includes the following sections:
+1.	Header
+o	Department Name
+o	College Name
+2.	Section 1: Faculty Details
+o	Display faculty information in a table with columns:
+	Faculty Name
+	Designation
+	Subject Handled
+3.	Section 2: Subjects Offered
+o	Display the list of subjects using an unordered list
+4.	Section 3: Weekly Timetable
+o	Display timetable details in a table with columns:
+	Day
+	Subject
+	Time Slot
+5.	Footer
+o	College address
+o	Contact information
+
+🛠️ Technical Constraints
+•	Use proper HTML document structure:
+o	<!DOCTYPE html>
+o	<html>, <head>, <body>
+•	Use semantic HTML elements:
+o	<header>, <section>, <footer>
+•	Use:
+o	<table>, <tr>, <th>, <td>
+o	<ul> and <li>
+•	Add meaningful HTML attributes such as lang or title
+•	Avoid CSS and JavaScript (HTML only)
+
+🎯 Learning Outcome
+You will be able to:
+•	Build real-world HTML pages with structured content
+•	Understand how semantic HTML improves readability and maintenance
+•	Organize information logically using tables and lists
+•	Prepare HTML content that is ready for CSS styling and backend integration
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Computer Science Department - Inderprastha Engineering College</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 >Computer Science Department</h1>
+        <h2 >Inderprastha Engineering College</h2>
+    </header>
+
+    <!-- Faculty Details Section -->
+    <section>
+        <h3>Faculty Details</h3>
+        <table border="1" >
+            <tr>
+                <th>Faculty Name</th>
+                <th>Designation</th>
+                <th>Subject Handled</th>
+            </tr>
+            <tr>
+                <td>Dr. Ramesh Kumar</td>
+                <td>Professor</td>
+                <td>Data Structures</td>
+            </tr>
+            <tr>
+                <td>Ms. Anita Sharma</td>
+                <td>Assistant Professor</td>
+                <td>Operating Systems</td>
+            </tr>
+            <tr>
+                <td>Mr. Suresh Patil</td>
+                <td>Lecturer</td>
+                <td>Database Management Systems</td>
+            </tr>
+        </table>
+    </section>
+
+    
+    <section>
+        <h3>Subjects Offered</h3>
+        <ul title="List of Subjects">
+            <li>Programming in C</li>
+            <li>Data Structures</li>
+            <li>Operating Systems</li>
+            <li>Database Management Systems</li>
+            <li>Computer Networks</li>
+        </ul>
+    </section>
+
+    
+    <section>
+        <h3>Weekly Timetable</h3>
+        <table border="1" >
+            <tr>
+                <th>Day</th>
+                <th>Subject</th>
+                <th>Time Slot</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>Data Structures</td>
+                <td>10:00 AM – 11:00 AM</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Operating Systems</td>
+                <td>11:00 AM – 12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>DBMS</td>
+                <td>09:00 AM – 10:00 AM</td>
+            </tr>
+        </table>
+    </section>
+
+    
+    <footer>
+        <p title="College Address">
+            Inderprastha Engineering College, ghaziabad, Uttar Pradesh
+        </p>
+        <p title="Contact Information">
+            Email: info@abccollege.edu | Phone: +91 98765 43210
+        </p>
+    </footer>
+
+</body>
+</html>

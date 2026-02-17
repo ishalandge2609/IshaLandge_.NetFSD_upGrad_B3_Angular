@@ -1,0 +1,59 @@
+<!--Student Registration Form with Input Types (Level-1)
+Scenario
+An institute wants a basic student registration form with built-in validation to reduce incorrect submissions.
+📌 Requirements
+Create an HTML webpage that includes:
+ Create a form with following input types:
+•	text (Name)
+•	email
+•	tel
+•	number (Age)
+•	date
+Use HTML5 built-in validation:
+•	required
+•	min, max
+•	pattern (for phone number)
+Add submit button
+
+🛠️ Technical Constraints
+•	HTML5 only
+•	No JavaScript validation
+•	Use proper <label> tags
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <hr>
+    <form action="server.php" method="get" autocorrect="off">
+    <fieldset>
+        <legend>student details</legend>
+
+        <label >Name of the Student</label>
+        <input type="text" name="nm" id="nm" placeholder="enter your name" required autofocus>
+        <br><br>
+        <label >Email ID</label>
+        <input type="email" name="id" id="id" placeholder="enter your email" required>
+        <br><br>
+        <label>telephone Number</label>
+        <input type="tel" pattern="\d{10}" name="ph" id="ph" placeholder="enter 10 digit number">
+        <br><br>
+        <label >Age</label>
+        <input type="number" name="age" id="age" min="18" max="32">
+        <br><br>
+        <label >Date</label>
+        <input type="date" name="dt" id="date">
+        <br><br>
+        <input type="submit" value="Submit">
+    </fieldset>
+   </form>
+</body>
+</html>
+

@@ -1,0 +1,104 @@
+<!--Scenario
+A company wants a basic onboarding page for new employees that HR can later style using CSS.
+
+📌 Requirements
+Use Semantic HTML:
+•	<header> → Company name & welcome message
+•	<section> → Employee details
+•	<article> → Company policies
+•	<footer> → Contact information
+Content Structure
+1.	Employee Information (Table)
+o	Employee ID
+o	Name
+o	Department
+o	Joining Date
+2.	Company Policies (Ordered List)
+o	Working hours
+o	Leave policy
+o	Code of conduct
+3.	Facilities Provided (Unordered List)
+o	Laptop
+o	Internet access
+o	Training materials
+
+🛠️ Technical Constraints
+•	Use semantic tags only (no <div> for layout)
+•	Add meaningful attributes (title, lang, etc.)
+•	Proper indentation & readability
+🎯 Learning Outcome
+Learners should be able to:
+•	Explain why semantic HTML matters
+•	Differentiate between structural and non-structural tags
+•	Build readable, SEO-friendly HTML-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Onboarding page</title>
+    <style>
+        h1{
+            text-align: center;
+            color: blue;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Cognizant</h1>
+    <h2>Congratulations and welcome aboard!</h2>
+</header>
+    <section>
+        <br>You’ve officially been shortlisted for the uGE_DotNET FSD_Angular Program, and this is no small feat.
+        <br> After successfully clearing a series of rigorous assessments, you’ve earned your place in a high-impact, career-defining journey.
+        </br>that’s designed to prepare you for placement upon successful completion.
+        Take a moment to be proud of yourself. You’ve already proven your potential and now it’s time to unlock it.</p>
+        <h2>Employee Details</h2>
+        <table border="10px">
+            <thead>
+            <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Joining Date</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IL0527</td>
+                    <td>ISHA LANDGE</td>
+                    <td>Programn Analyst</td>
+                    <td>26 july 2026</td>
+                </tr>
+            </tbody>
+             
+            
+        </table>
+    </section>
+    
+        <h2>Cpmpany Policies</h2>
+        <hr>
+        <article>
+            <ol>
+                <li>Working hours:9:00am - 6:00pm</li>
+                <li>Leave policy: 16 leaves a year</li>
+                <li>Code of conduct:bhu1234</li>
+            </ol>
+        </article>
+        <h2>Facilities Provided </h2>
+        <hr>
+        <ul>
+            <li>Laptop</li>
+            <li> Training Material</li>
+            <li> Internet access</li>
+        </ul>
+        <footer>
+            <p>Contact HR: hr@Cognizant.com</p>
+            <p> &copy;2026 Cognizant All Rights Reserved  </p>
+        </footer>
+</body>
+</html>

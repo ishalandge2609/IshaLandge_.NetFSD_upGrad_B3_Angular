@@ -1,0 +1,96 @@
+<!--Problem 5: Course Enrollment Form with Advanced HTML Elements
+Scenario
+An online learning platform wants to enhance user experience by showing course progress, skill levels, and suggested inputs while filling the form.
+📌 Requirements
+Create an enrollment form using:
+•	<datalist> for course suggestions
+•	<progress> to show enrollment completion
+•	<meter> to indicate skill level (Beginner–Advanced)
+Include modern input types:
+•	email
+•	range
+•	number
+Use built-in validation
+
+🛠️ Technical Constraints
+•	HTML5 only
+•	No JavaScript or CSS
+•	Must use semantic elements
+
+🎯 Learning Outcome
+You will be able to:
+•	Use advanced HTML5 elements
+•	Enhance form UX without JavaScript
+•	Understand real-time data representation in HTML
+Browser should display:
+•	Dropdown suggestions via <datalist>
+•	Progress bar updates (static value)
+•	Meter shows skill level visually
+Clean and structured form layout
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>course enrollment form</title>
+</head>
+<body> 
+    <header>
+      <h1>Online Learning Platform</h1>
+      <h2>progess of the completion of the form</h2>
+   </header>
+    
+    <main>
+
+        <section>
+            <progress value="50%" max="100%"></progress>
+            <p>50% form completed</p>
+            <p>50% to go.....</p>
+        </section>
+        <hr>
+        <h3>Enrollment Form</h3>
+        
+        <form action="php.server" method="post" autocomplete="off" autocorrect="off">
+        <label >name of the student</label>
+        <input type="text" name="nm" id="nm" placeholder="enter your name" autofocus required>
+        <br><br>
+        <label >Email ID</label>
+        <input type="email" name="em" id="em" placeholder="enter valid email" required>
+        <br><br>
+        <label >choose a course</label>
+         <input type="list" id="course choice" name="course choice" list="courseList" placeholder="type to search">
+     <datalist id="courseList">
+        
+        <option >Introduction to html</option>
+        <option >advanced css techniques</option>
+        <option >JavaScript Programming</option>
+        <option >React For Begineers</option>
+        <option>Python DataScience</option>
+     </datalist>
+     <br><br>
+          <label >Study Hours per Week:</label><br>
+            <input type="range" id="hours" name="hours" min="1" max="40"><br><br>
+
+            <!-- Meter for skill level -->
+            <label>Skill Level:</label><br>
+            <meter min="0" max="100" value="30"></meter>
+            <p>Beginner</p>
+
+            <br>
+
+            <!-- Submit -->
+            <input type="submit" value="Enroll">
+
+        </form>
+    </main>
+
+<footer>
+    <p>&copy; 2026 Online Learning Platform</p>
+</footer>
+
+
+</body>
+
+</html>

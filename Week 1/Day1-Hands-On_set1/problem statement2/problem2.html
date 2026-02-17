@@ -1,0 +1,427 @@
+<!--Problem 2: Restaurant Menu Webpage (Level-1)
+Scenario
+A small restaurant wants a basic menu webpage to display their offerings online before moving to a full website.
+
+📌 Requirements
+Create an HTML page that displays:
+1.	Restaurant Name (Heading)
+2.	About the Restaurant (Paragraph)
+3.	Menu Categories (Unordered List)
+4.	Price List (Table)
+
+📋 Table Structure
+Item Name	Category	Price (₹)
+Paneer Butter Masala	Main Course	220
+Veg Biryani	Main Course	180
+Masala Dosa	Breakfast	90
+Cold Coffee	Beverages	120
+
+🛠️ Technical Constraints
+•	Use proper HTML boilerplate
+•	Use at least 5 HTML elements
+•	Use HTML attributes such as border, title, align
+•	Use:
+o	<table>, <tr>, <th>, <td>
+o	<ul> and <li>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Problem Statement 2</title>
+
+    <style>
+        img1{
+            height: 50px;
+            width: 50px;
+        }
+        img2{
+            height: 100px;
+            width: 100px;
+        }
+        footer{
+            text-align: center;
+        }
+        table{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1><i>PUNJABI TADKA</i></h1>
+    <h2>Experience the True Taste of Punjab</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td><img id="img1" src="./image1.jpg" alt="restaurant image"></td></img>
+                <td><img id="img2" src="./image2.jpg" alt="waiter serving dishes "></td>
+        </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>About Punjabi Tadka</h2>
+    <div class="about">
+        <p>Punjabi Tadka brings you the rich and authentic flavors of Punjab, prepared with traditional recipes and a touch of homemade love
+    <br>Our dishes are made using fresh ingredients, aromatic spices, and classic Punjabi cooking techniques.
+    <p>From buttery curries to sizzling tandoori delights, every meal at Punjabi Tadka is a celebration of taste, warmth, and hospitality. 
+    <br>We aim to give our customers a true Punjabi food experience with quality, hygiene, and great service.</p>
+    </p>
+    </div>
+    <hr>
+   <h2>Punjabi Tadka - Menu Categories</h2>
+
+<ul>
+    <li>STARTERS
+        <ul>
+            <li>Veg Starters
+                <ul>
+                    <li>Veg Pakora</li>
+                    <li>Paneer Pakora</li>
+                    <li>Hara Bhara Kabab</li>
+                    <li>Crispy Corn</li>
+                </ul>
+            </li>
+            <li>Non-Veg Starters
+                <ul>
+                    <li>Chicken Pakora</li>
+                    <li>Chicken Tikka</li>
+                    <li>Tandoori Chicken</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>Main Course - Veg
+        <ul>
+            <li>Paneer Specialties
+                <ul>
+                    <li>Shahi Paneer</li>
+                    <li>Paneer Butter Masala</li>
+                    <li>Kadhai Paneer</li>
+                </ul>
+            </li>
+            <li>Dal Specialties
+                <ul>
+                    <li>Dal Fry</li>
+                    <li>Dal Tadka</li>
+                    <li>Dal Makhani</li>
+                </ul>
+            </li>
+            <li>Seasonal Vegetable Curries
+                <ul>
+                    <li>Mix Veg</li>
+                    <li>Aloo Gobi</li>
+                    <li>Bhindi Masala</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>Main Course - Non-Veg
+        <ul>
+            <li>Chicken Specialties
+                <ul>
+                    <li>Butter Chicken</li>
+                    <li>Chicken Curry</li>
+                    <li>Chicken Masala</li>
+                    <li>Kadhai Chicken</li>
+                </ul>
+            </li>
+            <li>Mutton Specialties
+                <ul>
+                    <li>Mutton Curry</li>
+                    <li>Mutton Rogan Josh</li>
+                    <li>Mutton Masala</li>
+                </ul>
+            </li>
+            <li>Egg Dishes
+                <ul>
+                    <li>Egg Curry</li>
+                    <li>Egg Masala</li>
+                    <li>Egg Bhurji</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+
+    <li>Beverages
+        <ul>
+            <li>Lassi (Sweet / Salted)</li>
+            <li>Soft Drinks</li>
+            <li>Tea & Coffee</li>
+        </ul>
+    </li>
+
+    <li>Accompaniments
+        <ul>
+            <li>Raita</li>
+            <li>Salad</li>
+            <li>Papad & Pickles</li>
+        </ul>
+    </li>
+
+    <li>Rice & Biryani
+        <ul>
+            <li>Plain & Flavoured Rice</li>
+            <li>Veg Biryani</li>
+            <li>Chicken Biryani</li>
+        </ul>
+    </li>
+
+    <li>Breads
+        <ul>
+            <li>Tandoori Roti</li>
+            <li>Butter Naan</li>
+            <li>Stuffed Parathas</li>
+        </ul>
+    </li>
+</ul>
+
+    <h2>PRICE LIST TABLE</h2>
+    <hr>
+     <table border="10px">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="3">VEG STARTERS</th>
+            </tr>
+            <tr>
+                <td>veg pakora</td>
+                <td>starters</td>
+                <td>-180</td>
+            </tr>
+            <tr>
+                <td>paneer pakoda </td>
+                <td>starters</td>
+                <td>-220</td>
+            </tr>
+            <tr>
+                <td>Harabara Kabab</td>
+                <td>Starters</td>
+                <td>-230</td>
+
+            </tr>
+            <tr>
+                <td>crispy corns</td>
+                <td>starters</td>
+                <td>-180</td>
+            </tr>
+            <tr>
+                <th colspan="3"> NON-VEG STARTERS</th>
+            </tr>
+            <tr>
+                <td>Chicken Pakora</td>
+                <td>Starter</td>
+                <td>220</td>
+            </tr>
+            <tr>
+                <td>Chicken Tikka </td>
+                <td>starter</td>
+                <td>290</td>
+            </tr>
+            <tr>
+                <td>Tandori Chicken (half)</td>
+                <td>starters</td>
+                <td>270</td>
+            </tr>
+            <tr>
+            <th colspan="3">non veg -main course</th>
+            </tr>
+            <tr>
+                <th colspan="3"> Paneer Specialties</th>
+            </tr>
+            <tr>
+                <td>Shahi Paneer</td>
+                <td>veg</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Paneer Butter Masala</td>
+                <td>veg </td>
+                <td>250</td>
+            </tr>
+            <tr>
+              <td>Kadhaie Paneer</td>
+              <td>veg</td>
+              <td>280</td>
+        </tr>
+        <tr>
+            <th colspan="3">Daal Specialties</th>
+        </tr>
+        <tr>
+            <td>dal fry</td>
+            <td>veg</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>dAL Tadka</td>
+            <td>veg</td>
+            <td>160</td>
+        </tr>
+        <tr>
+            <td>Dal Makhani</td>
+            <td>veg</td>
+            <td>190</td>
+        </tr>
+         <tr>
+            <th colspan="3">Seasonal Vegetable Curries</th>
+         </tr>
+         <tr>
+            <td>mix veg</td>
+            <td> Veg</td>
+            <td> 230</td>
+         </tr>
+         <tr>
+            <td>aloo gobi</td>
+            <td>veg</td>
+            <td>180</td>
+         </tr>
+         <tr>
+            <td>Bhindi Masala</td>
+            <td> veg</td>
+            <td> 190</td>
+         </tr>
+         <tr>
+            <th colspan="3">NON VEG -MAIN COURSE</th>
+    
+         </tr>
+         <tr>
+            <th colspan="3">Chicken Specialties</th>
+         </tr>
+         <tr>
+            <td>Butter Chicken</td>
+            <td> non veg</td>
+            <td>300</td>
+         </tr>
+         <tr>
+            <td>Chicken curry</td>
+            <td>non Veg</td>
+            <td>310</td>
+         </tr>
+         <tr>
+        <td>chicken Masala</td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         
+         <td>kADHAIE Chicken</td>
+         <td>non veg</td>
+         <td>290</td>
+         </tr>
+         <tr>
+            <th colspan="3">Mutton Specialities</th>
+         </tr>
+         <td>Mutton curry</td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         <td>mutton rogan ghosh</td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         <td>mutton Masala</td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         <tr>
+            <th colspan="3">EGG DISHES</th>
+         </tr>
+         <td>Egg Curry/td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         <td>egg Masala</td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         <td>Egg Bhurji</td>
+         <td>non veg</td>
+         <td>310</td>
+         </tr>
+         <tr>
+            <th colspan="3">Beverages</th>
+        </tr>
+        <td>Lassi</td>
+         <td>Beverages</td>
+         <td>110</td>
+         </tr>
+         <td>Soft Drinks</td>
+         <td>Beverages</td>
+         <td>90</td>
+         </tr>
+         <tr>
+            <th colspan="3">Accompaniments</th>
+         </tr>
+         <tr>
+        <td>Salad</td>
+         <td>Accompaniments</td>
+         <td>70</td>
+         </tr>
+         <tr>
+        <td>Raita</td>
+         <td>Accompaniments</td>
+         <td>50</td>
+         </tr>
+         <tr>
+        <td>papad and pickels</td>
+         <td>Accompaniments</td>
+         <td>70</td>
+         </tr>
+         <tr>
+            <th colspan="3">RICE AND BIRYANI</th>
+         </tr>
+         <tr>
+            <td>plain and Flavoured rice</td>
+            <td>rice</td>
+            <td>259</td>
+         </tr>
+         <tr>
+            <td>Veg Biryani</td>
+            <td> veg rice</td>
+            <td>259</td>
+         </tr>
+         <tr>
+            <td>Chicken Biryani </td>
+            <td> non -rice</td>
+            <td>359</td>
+         </tr>
+         <tr>
+            <th colspan="3">BREADS</th>
+         </tr>
+         <tr>
+            <td>Tandoori Roti</td>
+            <td>breads</td>
+            <td>20</td>
+         </tr>      
+         <tr>
+            <td>butter naan</td>
+            <td>breads</td>
+            <td>10</td>
+         </tr>
+         <tr>
+            <td>stuffed Parathas</td>
+            <td>breads</td>
+        <td>60</td>
+            </tr>
+       
+         
+
+        </tbody>
+    
+     </table>
+     <footer>
+        <p> &copy;location:sadar nagpur opp to v3s mall</p>
+        <p>opening time-9:00 to 12:00(monday to sunday) </p>
+        <p> contact us +91876532937</p>
+     </footer>
+
+</body>
+</html>

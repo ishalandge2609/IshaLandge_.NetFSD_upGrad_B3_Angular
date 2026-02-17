@@ -1,0 +1,62 @@
+<!--Assessment Goal: Validate understanding of links and form elements.
+Hands-on Tasks:
+1.	Create two HTML pages and link them using navigation links
+2.	Add a navigation bar with Home and Contact links
+3.	Create a registration form with:
+o	Name
+o	Email
+o	Password
+o	Gender (radio buttons)
+o	Course selection (dropdown)
+4.	Use required and placeholder attributes
+Expected Outcome:
+A multi-page website with working navigation and a basic form.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Web Development Project</h1>
+    <hr>
+    <div>
+      <a href="HOME.HTML">About</a>|
+      <a href="CONTACT.HTML">Contact us</a>|
+    </div>
+    <hr>
+    <h2>registration form</h2>
+    <hr>
+    <form action="server.php" method="get" autocomplete="off">
+        <fieldset>
+            <legend>user registration Form</legend>
+            <label > Name:</label>
+            <input type="text" id="nm" name="nm" placeholder="enter your name" autofocus>
+            <label > Email ID:</label>
+            <input type="email" name="eid" id="eid" placeholder="enter your email">
+            <label >Password</label>
+            <input type="password"  id="pass"   name="pass" placeholder="enter the password">
+            <p></p>
+
+
+            <label >Gender</label>
+            <input type="radio" id="g1" name="gender" value="Male" >
+            <label >Male</label>
+            <input type="radio" id="g2" name="gender" value="Female" >
+            <label >Female</label>
+            <label >Course Selection</label>
+            <select name="s1" id="s1">
+                <option >fsd.net</option>
+                <option selected>M.Tech</option>
+                <option>BCA</option>
+                <option>MCA</option>
+                <option>Others</option>
+            </select>
+
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
