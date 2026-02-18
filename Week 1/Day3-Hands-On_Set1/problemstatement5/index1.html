@@ -1,0 +1,160 @@
+<!--Problem 5: Responsive Dashboard Layout (Level-2)
+Scenario
+You are designing a simple admin dashboard layout for a web application.
+📌 Requirements
+Create a layout with:
+•	Sidebar navigation
+•	Main content area
+•	Info cards inside the main section
+Use:
+•	display properties
+•	Flexbox or Grid for page structure
+Style:
+•	Sidebar with background color
+•	Cards with borders, padding, and margins
+Apply media queries to:
+•	Convert sidebar into top navigation on mobile
+•	Stack cards vertically on small screens
+
+🛠️ Technical Constraints
+•	HTML + CSS only
+•	No JavaScript
+•	No external UI libraries
+
+🎯 Learning Outcome
+You will be able to:
+•	Master page layouts using Flexbox/Grid
+•	Apply modern responsive web design techniques
+•	Understand how layout adapts across devices
+•	Build industry-relevant UI structures
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Responsive Dashboard</title>
+
+<style>
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* --------- Sidebar --------- */
+.sidebar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    flex: 0 0 220px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+/* --------- Main Content --------- */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f6f8;
+}
+
+/* --------- Info Cards --------- */
+.card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    flex: 1 1 250px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <h2>Admin Panel</h2>
+        <ul>
+            <li>Dashboard</li>
+            <li>Users</li>
+            <li>Reports</li>
+            <li>Settings</li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <h1>Dashboard Overview</h1>
+
+        <section class="card-container">
+
+            <div class="card">
+                <h3>Total Users</h3>
+                <p>1,245 Active Users</p>
+            </div>
+
+            <div class="card">
+                <h3>Revenue</h3>
+                <p>$18,540 This Month</p>
+            </div>
+
+            <div class="card">
+                <h3>New Orders</h3>
+                <p>320 Orders Today</p>
+            </div>
+
+            <div class="card">
+                <h3>Performance</h3>
+                <p>Server Running Smoothly</p>
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+</html>

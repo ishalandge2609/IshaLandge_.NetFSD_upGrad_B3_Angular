@@ -1,0 +1,137 @@
+<!--Problem 4: Responsive Blog Layout (Level-2)
+Scenario
+You are creating a blog homepage that displays articles in a modern responsive layout suitable for desktop, tablet, and mobile screens.
+📌 Requirements
+Create a page layout with:
+•	Header
+•	Main content area with multiple blog cards
+Use:
+•	Flexbox or CSS Grid for layout
+•	Box model for spacing
+Each blog card should contain:
+•	Title
+•	Short description
+•	Read More button
+Apply:
+•	Background colors
+•	Borders
+•	Typography enhancements
+Use media queries to:
+•	Display multiple columns on desktop
+•	Switch to single column on mobile
+🛠️ Technical Constraints
+•	Only HTML + CSS
+•	No CSS frameworks
+•	No fixed widths (use percentages or flexible units)
+🎯 Learning Outcome
+Learners should be able to:
+•	Understand Flexbox/Grid layouts
+•	Apply responsive design principles
+•	Write effective media queries
+•	Build real-world page layouts
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     body{
+        background-color: #F0FFDF;
+        font-family: Arial, Helvetica, sans-serif;
+     }
+     header h1{
+       color: #161b14;
+       text-align: center;
+       background-color:#e4d54e ;
+     }
+     header h2{
+        text-align: center;
+        color: #2d551a;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+      
+       background-color:#d8f1a9 ;
+     }
+    
+    #blog-Container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        border-radius: 10px;
+        text-align: center;
+        text-decoration-color: rgb(37, 101, 156);
+    }
+    #blog-Container button{
+        border-radius: 10px;
+        background-color: #2d551a;
+        color: white;
+        padding: 5px;
+        border: #161b14;
+        margin: 10px;
+        font-size: 15px;
+        margin-bottom: 15px;
+        transition: 0.6s;
+    }
+    #blog-Container button:hover{
+        background-color: #57cf20;
+        color: #161b14;
+        transform: scale(1.1);
+       cursor: pointer;
+        }
+    
+    .blog-card{
+        background-color: #b4acac;
+        color: rgb(67, 67, 133);
+        border-radius: 10px;
+        border: solid white 2px;
+        height: 200px;
+        width: 250px;
+        padding: 10px;
+        margin: 10px;
+        
+    }
+    .blog-card h3{
+        color: cadetblue;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Tech Blog</h1>
+        <h2>Latest Article and Insights</h2>
+    </header>
+    <main>
+        <section id="blog-Container">
+            <article class="blog-card">
+            <h3>Understanding HTML5</h3>
+            <p>Learn the basics of HTML5 and how it structures modern web pages.</p>
+            <button>Read More</button>
+        </article>
+
+        <article class="blog-card">
+            <h3>CSS Flexbox Made Easy</h3>
+            <p>A beginner-friendly guide to creating responsive layouts using Flexbox.</p>
+            <button>Read More</button>
+        </article>
+
+        <article class="blog-card">
+            <h3>Responsive Web Design</h3>
+            <p>Discover how to build websites that look great on all devices and screens.</p>
+            <button>Read More</button>
+        </article>
+
+        <article class="blog-card">
+            <h3>Media Queries Explained</h3>
+            <p>Understand how media queries help adapt layouts for different screens.</p>
+            <button>Read More</button>
+        </article>
+        
+           
+        </section>
+    </main>
+</body>
+</html>

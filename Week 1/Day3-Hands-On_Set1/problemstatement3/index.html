@@ -1,0 +1,91 @@
+<!--Scenario
+You are designing a feature highlight section for a product landing page that lists key features in a visually appealing way.
+📌 Requirements
+ Create a section with:
+•	Section heading
+•	List of 4–5 features
+Style the list using:
+•	Custom fonts
+•	Text color and background color
+•	Border and padding for each feature item
+Use:
+•	CSS selectors (element, class, descendant)
+Apply hover effects on feature items
+
+🛠️ Technical Constraints
+•	Use unordered list (<ul>)
+•	No JavaScript
+•	No layout frameworks
+•	Only basic HTML structure
+🎯 Learning Outcome
+You will be able to:
+•	Practice CSS selectors
+•	Style lists professionally
+•	Improve UI consistency
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Features</title>
+    <style>
+     body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(207, 217, 226);
+        }
+    .heading h1{
+           color: blue;
+            background-color:whitesmoke;
+            padding: 10px ;
+            border:solid navy 2px;
+            text-align: center;
+        }
+        #features ul li{
+            text-align: center;
+            color: brown;
+            background-color: rgb(241, 211, 174);
+            border:  solid 1px;
+            padding: 3px;
+            margin: 5px;
+            font-family: sans-serif;
+            font-style: italic;
+            font-weight: 10;
+            border-radius: 8px;
+            transition: 0.6s;
+        }
+        #features ul {
+            list-style-type: none;
+          /*to remove the bullets points*/        
+        }
+        /* Hover Effect */
+        #features ul li:hover{
+            background-color: #d2e0e9;
+            color:black;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+       
+   
+    </style>
+</head>
+<body>
+        <div class="heading">
+            <span> <h1>Key Product Features-</h1>
+    </span>   
+    <p></p> 
+    <section >
+        <div id="features">
+        <ul>
+        <li>Fast Performance & Optimized Speed</li>
+        <li>User-Friendly Interface</li>
+        <li>Secure Cloud Storage</li>
+        <li>24/7 Customer Support</li>
+        <li>Mobile Responsive Design</li>
+
+        </ul>
+        </div>
+      
+    </section>
+</body>
+</html>
