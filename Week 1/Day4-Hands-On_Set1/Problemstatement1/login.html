@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive CSS</title>
+  </head>
+  <style>
+    body {
+      background-color: rgb(202, 249, 249);
+    }
+    .heading {
+      text-align: center;
+      color: rgb(12, 12, 69);
+    }
+    .para {
+      font-size: 24px;
+    }
+    .list {
+      font-size: 22px;
+    }
+    .navItems{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 20px;
+        background-color: cadetblue;
+        padding: 50px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .navItems a{
+        border: 2px solid red;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        width: 250px;
+      }
+
+    @media (max-width: 768px) {
+      body {
+        background-color: rgb(236, 176, 176);
+      }
+      .para {
+        font-size: 20px;
+      }
+      .list {
+        font-size: 18px;
+      }
+      h2 {
+        color: brown;
+      }
+    }
+    @media (max-width: 425px) {
+      body {
+        background-color: rgb(235, 240, 184);
+      }
+      .para {
+        font-size: 16px;
+      }
+      .list {
+        font-size: 14px;
+      }
+      h2 {
+        color: green;
+      }
+    }
+  </style>
+  <body>
+    <h1 class="heading">Desktop Responsive</h1>
+    <hr />
+    <nav class="navItems">
+            <a href="#">Home</a>
+             <a href="#">Users</a>
+             <a href="#">Forms</a>
+             <a href="#">Reports</a>
+            </nav>
+    <header>
+
+    </header>
+    <p class="para">
+      Responsive web design (RWD) is a web design approach to make web pages
+      render well on all screen sizes and resolutions while ensuring good
+      usability. It is the way to design for a multi-device web. In this
+      article, we'll help you understand some techniques that can be used to
+      master it.
+    </p>
+    <p class="para">
+      Mobile devices used to be low-powered in terms of CPU/GPU and available
+      bandwidth. Some didn't support CSS or even HTML, and as a result, it was
+      common to perform server-side browser sniffing to determine device/browser
+      type before then serving a site that the device would be able to cope
+      with. Mobile devices often had really simple, basic experiences served to
+      them because it was all they could handle. These days, mobile devices are
+      able to handle the same technologies as desktop computers, so such
+      techniques are less common.
+    </p>
+    <h2>Learning outcomes:</h2>
+    <ul>
+      <li class="list">
+        What responsive design is — designing web layouts so that they are
+        flexible and work well across different device screen sizes,
+        resolutions, etc.
+      </li>
+      <li class="list">
+        The relationship between modern layout tools such as grid and flexbox,
+        and responsive design.
+      </li>
+      <li class="list">
+        The concepts behind using media queries for responsive design, including
+        mobile-first and breakpoints.
+      </li>
+      <li class="list">
+        Why viewport is needed to get web documents to display appropriately on
+        mobile devices.
+      </li>
+    </ul>
+  </body>
+</html>

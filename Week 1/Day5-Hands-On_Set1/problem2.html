@@ -1,0 +1,37 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>User Info</h1>
+    <input type="button" id="btn" value="Show User info" />
+
+    <p id="name"></p>
+    <p id="age"></p>
+    <p id="city"></p>
+
+    <script>
+      let user = {
+        name: "isha Landge",
+        age: 24,
+        city: "Nagpur",
+      };
+      let name = document.getElementById("name");
+      let age = document.getElementById("age");
+      let city = document.getElementById("city");
+
+      function displayUserInfo(userObj) {
+        name.innerHTML = "Name: " + userObj.name;
+        age.innerHTML = "Age: " + userObj.age;
+        city.innerHTML = "City: " + userObj.city;
+      }
+
+      document.getElementById("btn").addEventListener("click", function () {
+        displayUserInfo(user);
+      });
+    </script>
+  </body>
+</html>

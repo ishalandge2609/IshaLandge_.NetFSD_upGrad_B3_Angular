@@ -1,0 +1,54 @@
+<!--Problem 2: Student Grade Evaluator (Level-1)
+Scenario
+A school wants a simple JavaScript program to evaluate a student’s performance based on marks obtained in a subject.
+📌 Requirements
+•	Accept the student’s marks as a variable
+•	Use if–else statements to assign grades:
+•	Marks ≥ 75 → Grade A
+•	Marks ≥ 60 → Grade B
+•	Marks ≥ 40 → Grade C
+•	Marks < 40 → Fail
+Display the grade on the web page or console
+
+🛠️ Technical Constraints
+•	Use JavaScript variables (let or const)
+•	Use numeric data types
+•	Use comparison and logical operators
+•	No functions or arrays allowed
+•	Output using console.log() or document.write()
+
+🎯 Learning Outcome
+You should be able to:
+•	Declare and use variables
+•	Apply comparison operators
+•	Implement conditional logic using if–else
+•	Understand decision-making in JavaScript
+
+
+--><!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Evaluator</title>
+</head>
+<body>
+ <h1>Student Grade Evaluator</h1>
+<input type="number" id="num1" placeholder="Enter students marks">
+<script>
+    let studentsmarks = Number(document.getElementById("num1").studentsmarks);
+   
+    if (studentsmarks >= 75) {
+        console.log("Grade A");
+    } 
+    else if (studentsmarks >= 60) {
+        console.log("Grade B");
+    } 
+    else if (studentsmarks >= 40) {
+        console.log("Grade C");
+    } 
+    else {
+        console.log("Fail");
+    }
+</script>
+
+</body>
+</html>

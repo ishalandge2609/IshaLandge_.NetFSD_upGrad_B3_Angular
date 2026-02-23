@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Discount Calculator</h1>
+    <hr>
+    <script>
+        let amount = 6500
+        let discount = 0
+        let finalAmount = 0
+
+        if(amount>=5000){
+            discount = amount * 0.20
+        }else if(amount>=3000){
+            discount = amount * 0.10
+        }else{
+            discount = 0
+        }
+        finalAmount = amount - discount;
+
+        console.log("Total Amount: " + amount )
+        console.log("Discount: " + discount )
+        console.log("Final Amount: " + finalAmount )
+    </script>
+</body>
+</html>

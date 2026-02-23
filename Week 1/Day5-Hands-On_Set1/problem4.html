@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Student Profile</h1>
+
+<div id="profile" style="border:1px solid black; padding:10px; width:250px; font-size: 22px"></div>
+<br>
+<button id="updateMarks" >Update Marks</button>
+
+<script>
+
+let student = {
+    name: "isha landge",
+    rollNo: 98,
+    marks: 84
+};
+
+function updateStudentProfile(studentObj){
+    document.getElementById("profile").innerHTML =
+        "Name: " + studentObj.name + "<br>" +
+        "Roll No: " + studentObj.rollNo + "<br>" +
+        "Marks: " + studentObj.marks;
+}
+
+function updateMarks(newMarks){
+    student.marks = newMarks;
+    updateStudentProfile(student);
+}
+
+document.getElementById("updateMarks").addEventListener("click", function(){
+    updateMarks(95);
+});
+
+updateStudentProfile(student);
+</script>
+
+</body>
+</html>
