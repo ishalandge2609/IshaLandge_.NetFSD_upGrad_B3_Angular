@@ -1,0 +1,53 @@
+<html>
+<head></head>
+
+<body>
+    <h3>JavaScript 6 (ES6) - Object Oriented Programming</h3>
+    <hr />
+    <input type="button" onclick="fn_button1Click()" value="Get Data" />
+    <p id="output"></p>
+
+    <script>
+
+        class Student {
+
+            constructor(name, rollNumber, marks) {
+                this.name = name;
+                this.rollNumber = rollNumber;
+                this.marks = marks;
+            }
+
+            getShowDetails() {
+                return `Name: ${this.name}, Roll Number: ${this.rollNumber}, Marks: ${this.marks}`;
+            }
+
+            getGrade() {
+
+                if (this.marks >= 85)
+                    return "A";
+                else if (this.marks >= 75)
+                    return "B";
+                else if (this.marks >= 50)
+                    return "C";
+                else
+                    return "Fail";
+            }
+        }
+
+        function fn_button1Click() {
+
+            let s1 = new Student("Anjali", 28, 92);
+            let s2 = new Student("Lakshmi", 25, 75);
+
+            let result = "";
+
+            result += s1.getShowDetails() + " | Grade: " + s1.getGrade() + "<br><br>";
+            result += s2.getShowDetails() + " | Grade: " + s2.getGrade();
+
+            document.getElementById("output").innerHTML = result;
+        }
+
+    </script>
+
+</body>
+</html>

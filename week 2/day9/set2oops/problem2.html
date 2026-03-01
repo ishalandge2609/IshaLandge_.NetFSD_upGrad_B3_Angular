@@ -1,0 +1,45 @@
+<html>
+<head></head>
+<body>
+
+<h3> JavaScript 6 (ES6) - Object Oriented Programming Inheritance </h3>
+<hr/>
+<input type="button" onclick="fn_button1Click()" value="Get Data" />
+<div id="output"></div>
+
+<script>
+
+
+    class Vehicle {
+        brand = "Honda";
+        speed = 180;
+
+        displayInfo() {
+           
+            return `Brand: ${this.brand}, Speed: ${this.speed} km/h`;
+        }
+    }
+
+
+    class Car extends Vehicle {
+        fuelType = "Petrol";
+
+        showCarDetails() {
+           
+              return `Fuel Type: ${this.fuelType}`;
+        }
+    }
+
+   
+    function fn_button1Click() {
+        var car1 = new Car();
+
+        var result = car1.displayInfo() + "<br>" + car1.showCarDetails();
+
+        document.getElementById("output").innerHTML = result;
+    }
+
+</script>
+
+</body>
+</html>

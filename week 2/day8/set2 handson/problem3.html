@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic To-Do List</title>
+</head>
+<body>
+
+    <h2>My To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter new task">
+    <button id="addBtn">Add Task</button>
+
+    <hr>
+    <ul id="taskList"></ul>
+
+<script>
+
+    const taskInput = document.getElementById("taskInput");
+    const addBtn = document.getElementById("addBtn");
+    const taskList = document.getElementById("taskList");
+
+    function addTask() {
+
+        const taskText = taskInput.value.trim();
+
+        if (taskText === "") {
+            alert("Please enter a task");
+            return;
+        }
+
+        const li = document.createElement("li");
+
+        li.innerHTML = `
+            <span class="task-text">${taskText}</span>
+            <button class="complete-btn">Complete</button>
+            <button class="delete-btn">Delete</button>
+        `;
+
+        taskList.appendChild(li);
+
+        taskInput.value = "";
+    }
+
+    //adding event while adding the task
+
+    addBtn.addEventListener("click", addTask);
+
+
+    // complete and dlt buttons
+
+    taskList.addEventListener("click", function(event) {
+
+        const clickedElement = event.target;
+
+        if (clickedElement.classList.contains("delete-btn")) {
+
+            const li = clickedElement.parentElement;
+            taskList.removeChild(li);
+
+        }
+
+        if (clickedElement.classList.contains("complete-btn")) {
+
+            const li = clickedElement.parentElement;
+            li.style.textDecoration = "line-through";
+            li.style.color = "gray";
+
+        }
+
+    });
+
+</script>
+
+</body>
+</html>

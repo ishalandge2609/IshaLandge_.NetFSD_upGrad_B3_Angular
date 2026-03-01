@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expense Tracker - IndexedDB</title>
+</head>
+<body>
+
+<h2>Expense Tracker</h2>
+
+<input type="text" id="title" placeholder="Title">
+<input type="number" id="amount" placeholder="Amount">
+<input type="date" id="date">
+<br><br>
+
+<button onclick="addExpense()">Add Expense</button>
+<button onclick="viewExpenses()">View Expenses</button>
+
+<h3>Expense List</h3>
+<ul id="expenseList"></ul>
+
+<script>
+
+var db;
+
+//  Step 1: Open Database
+var request = indexedDB.open("ExpenseDB", 1);
+
+//  Step 2: Create Object Store (Table)
+request.onupgradeneeded = function(event) {
+    db = event.target.result;
+
+    db.createObjectStore("expenses", {
+        keyPath: "id",
+        autoIncrement: true
+    });
+
+    console.log("Database & Object Store Created");
+};
+
+//  Step 3: Success Open
+request.onsuccess = function(event) {
+    db = event.target.result;
+    console.log("Database Opened Successfully");
+};
+
+//  Step 4: Error Handling
+request.onerror = function(event) {
+    console.log("Database Error: ", event.target.error);
+};
+
+//  Add Expense
+function addExpense() {
+
+    var title = document.getElementById("title").value;
+    var amount = document.getElementById("amount").value;
+    var date = document.getElementById("date").value;
+
+    var transaction = db.transaction(["expenses"], "readwrite");
+
+    var store = transaction.objectStore("expenses");
+
+    var expense = {
+        title: title,
+        amount: amount,
+        date: date
+    };
+
+    store.add(expense);
+
+    transaction.oncomplete = function() {
+        alert("Expense Added Successfully");
+    };
+
+    transaction.onerror = function(event) {
+        alert("Transaction Error: " + event.target.error);
+    };
+}
+
+//  View Expenses
+function viewExpenses() {
+
+    var transaction = db.transaction(["expenses"], "readonly");
+
+    var store = transaction.objectStore("expenses");
+
+    var request = store.getAll();
+
+    request.onsuccess = function() {
+
+        var list = document.getElementById("expenseList");
+        list.innerHTML = "";
+
+        request.result.forEach(function(item) {
+
+            var li = document.createElement("li");
+
+            li.innerHTML =
+                item.title + " - ₹" + item.amount + " - " + item.date +
+                " <button onclick='deleteExpense(" + item.id + ")'>Delete</button>";
+
+            list.appendChild(li);
+        });
+    };
+}
+
+//  Delete Expense
+function deleteExpense(id) {
+
+    var transaction = db.transaction(["expenses"], "readwrite");
+
+    var store = transaction.objectStore("expenses");
+
+    store.delete(id);
+
+    transaction.oncomplete = function() {
+        alert("Deleted Successfully");
+        viewExpenses();
+    };
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Task Manager</title>
+    <style>
+        .completed {
+            color: blue;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Task Manager</h2>
+
+<input type="text" id="taskInput" placeholder="Enter Task">
+<button onclick="handleAdd()">Add Task</button>
+<button onclick="handleList()">List Tasks</button>
+
+<h3>Tasks</h3>
+<div id="output"></div>
+
+<script>
+
+let tasks = [];
+
+// Add Task
+const addTaskAsync = async (taskText) => {
+    await new Promise(resolve => setTimeout(resolve, 500));
+
+    tasks.push({
+        text: taskText,
+        completed: false
+    });
+};
+
+
+const listTasksAsync = async () => {
+    await new Promise(resolve => setTimeout(resolve, 500));
+    return tasks;
+};
+
+
+const deleteTask = async (index) => {
+    await new Promise(resolve => setTimeout(resolve, 300));
+    tasks.splice(index, 1);
+    handleList();
+};
+
+// Complete the task or not
+const toggleTask = async (index) => {
+    await new Promise(resolve => setTimeout(resolve, 300));
+    tasks[index].completed = !tasks[index].completed;
+    handleList();
+};
+
+// Adding
+const handleAdd = async () => {
+    const input = document.getElementById("taskInput").value;
+
+    if (input === "") {
+        alert("Enter task");
+        return;
+    }
+
+    await addTaskAsync(input);
+    document.getElementById("taskInput").value = "";
+    handleList();
+};
+
+// List handles
+const handleList = async () => {
+
+    const data = await listTasksAsync();
+    let display = "";
+
+    data.forEach((task, index) => {
+
+        display += `
+            <p class="${task.completed ? 'completed' : ''}">
+                ${task.text}
+                <button onclick="toggleTask(${index})">Complete</button>
+                <button onclick="deleteTask(${index})">Delete</button>
+            </p>
+        `;
+    });
+
+    document.getElementById("output").innerHTML = display;
+};
+
+</script>
+</body>
+</html>
