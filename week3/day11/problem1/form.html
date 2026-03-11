@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+    
+</head>
+<body>
+
+    <h3>Student Feedback Form</h3>
+    <hr>
+
+    Name:
+    <input type="text" id="name"><br><br>
+
+    Email:
+    <input type="email" id="email"><br><br>
+
+    Course Rating:
+    <select id="rating">
+        <option value="">--Select--</option>
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+    </select><br><br>
+    
+    Comment:
+    <textarea id="comments" rows="3" cols="40"></textarea><br><br>
+
+    <input type="button" id="btnSubmit" value="Submit Feedback">
+
+    <p id="msg"></p>
+
+    <script  src="https://code.jquery.com/jquery-4.0.0.js">		
+    
+	</script>
+      
+
+
+<script>
+ $(document).ready(function () {
+
+    $("#btnSubmit").click(function () {
+
+        let name = $("#name").val();
+        let email = $("#email").val();
+
+        if (name == "" || email == "") {
+            $("#msg").text("Name and Email can not be empty")
+                     .css("color", "red");
+        } 
+        else {
+            $("#msg").text("Feedback submitted successfully!")
+                     .css("color", "green");
+
+            $("#name").val("");
+            $("#email").val("");
+            $("#rating").val("");
+            $("#comments").val("");
+        }
+
+    });
+
+});
+</script>
+
+
+</body>
+</html>

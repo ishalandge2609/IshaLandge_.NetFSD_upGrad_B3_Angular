@@ -1,0 +1,67 @@
+<!-- Create HTML page to implement Sum operation by using jQuery -->
+<html>
+
+</head>
+
+<body>
+	<h3>jQuery Programming - Event Handling in jQuery</h3>
+	<hr />
+	Product Name:
+	<input type="text" name="t1" id="t1" />
+	<br><br>
+    Unit Price:
+	<input type="text" name="t2" id="t2" />
+	<br><br>
+	Quantity:
+	<input type="text" name="t3" id="t3" />
+	<br><br>
+	<input type="button" name="b1" id="b1" value=" Get Total " />
+	<p id="p1"> </p>
+
+  <style>
+   body{
+
+    border: 7px solid purple;
+    margin: 5px;
+    padding: 10px;
+
+   }
+
+   .b1{
+    background-color: green;
+    color: beige;
+   }
+
+    
+  </style>
+
+    <script  src="https://code.jquery.com/jquery-4.0.0.js">		
+	</script>
+
+	<script>
+		$(document).ready(function () {
+
+			$("#b1").click(function()
+			{
+                //get
+
+                let productName=($("#t1").text());
+				let Price  =  Number(  $("#t2").val() );
+
+                let Quantity =   Number(  $("#t3").val() );
+				
+             //calculate
+                let total = Price * Quantity
+
+
+				$("#p1").text("total amount :"+ total)
+
+                //style
+                
+			});			 
+		});
+
+
+	</script>
+</body>
+</html>

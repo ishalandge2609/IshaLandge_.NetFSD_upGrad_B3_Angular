@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ Toggle Section</title>
+
+    <style>
+        .question {
+            cursor: pointer;
+            font-weight: bold;
+            padding: 8px;
+            background-color: #f2f2f2;
+            margin-top: 5px;
+        }
+
+        .answer {
+            display: none;
+            padding: 8px;
+            background-color: rgb(238, 214, 185);
+            border-left: 4px solid green;
+        }
+
+        .active {
+            background-color: #99c7dd;
+            color: #0c5460;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Frequently Asked Questions</h3>
+    <hr>
+
+    <div class="question">1. What is jQuery?</div>
+    <div class="answer">jQuery is a JavaScript library that simplifies DOM manipulation.</div>
+
+    <div class="question">2. What is DOM?</div>
+    <div class="answer">DOM stands for Document Object Model.</div>
+
+    <div class="question">3. What is an event?</div>
+    <div class="answer">An event is an action performed by the user.</div>
+
+    <div class="question">4. What is slideToggle?</div>
+    <div class="answer">slideToggle() shows or hides content with animation.</div>
+
+    <div class="question">5. Why use jQuery?</div>
+    <div class="answer">jQuery reduces code and handles browser issues.</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+
+    <script>
+   $(document).ready(function () {
+
+    $(".question").click(function () {
+
+        // Toggle the next answer
+        $(this).next(".answer").slideToggle();
+
+        // Highlight selected question
+        $(this).toggleClass("active");
+
+    });
+
+});
+</script>
+
+</body>
+</html>

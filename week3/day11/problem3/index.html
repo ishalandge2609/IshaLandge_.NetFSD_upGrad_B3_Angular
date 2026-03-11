@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List - Add to Cart</title>
+
+    <style>
+        .product {
+
+            padding: 10px;
+            margin: 10px;
+            width: 250px;
+        }
+
+        .msg {
+            color: green;
+            font-size: 14px;
+            margin-left: 10px;
+        }
+
+        #cart {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>
+        Cart Items: <span id="cart">0</span>
+    </h2>
+    <hr>
+
+    <div class="product">
+        <p>Product 1 - Laptop</p>
+        <button class="addBtn">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+ <hr>
+    <div class="product">
+        <p>Product 2 - Mobile</p>
+        <button class="addBtn">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+    <hr>
+
+    <div class="product">
+        <p>Product 3 - Headphones</p>
+        <button class="addBtn">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+    <hr>
+
+    <div class="product">
+        <p>Product 4 - Keyboard</p>
+        <button class="addBtn">Add to Cart</button>
+        <span class="msg"></span>
+    </div>
+    <hr>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+   <script>
+$(document).ready(function () {
+
+    let count = 0;   
+
+    $(".addBtn").click(function () {
+
+        
+        count++;
+        $("#cart").text(count);
+
+        
+        $(this).prop("disabled", true);
+
+       
+        $(this).siblings(".msg").text("Added to Cart")
+
+    });
+
+});
+</script>
+</body>
+</html>
