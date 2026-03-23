@@ -1,0 +1,346 @@
+[  {
+  "id": 2,
+  "name": "Modern Wooden Centre Table",
+  "category": "Furniture",
+  "description": "Elegant wooden centre table with a smooth finish, sturdy legs, and spacious top. Perfect for modern living rooms.",
+  "price": 24999,
+  "rating": 4.5,
+  "image": "images/centre table.jpg"
+},
+
+ 
+
+    {
+  "id": 8,
+  "name": "Modern Floor Lamp",
+  "category": "Lighting",
+  "description": "Elegant floor lamp with a slim metal stand and soft warm light. Perfect for living rooms and corners.",
+  "price": 9000,
+  "rating": 4.5,
+  "image": "images/floor lamp.jpg"
+},
+
+{
+    "id": 14,
+    "name": "Indoor Monstera Plant",
+    "category": "Planters",
+    "description": "Beautiful Monstera Deliciosa in a ceramic pot. Low maintenance, air-purifying, and ideal for home and office decor.",
+    "price": 6999,
+    "rating": 4.6,
+    "image": "images/planter2.jpg"
+  },
+
+  {
+  "id": 33,
+  "name": "Thinker Statue Set (3 pcs)",
+  "category": "Decorative Items",
+  "description": "Artistic thinker statue set of 3 pieces, perfect for adding a creative touch to your space.",
+  "price": 1299,
+  "rating": 4.6,
+  "image": "images/img2.jpg"
+},
+ {
+    "id": 1,
+    "name": "Sofa Set ",
+    "category": "Furniture",
+    "description": "Premium fabric sofa set with solid wood frame, high-density foam cushions, and modern design. Ideal for living rooms.",
+    "price": 32000,
+    "rating": 4.5,
+    "image": "images/sofaset.jpg"
+  },
+{
+  "id": 3,
+  "name": "Round Wooden sideTable",
+  "category": "Furniture",
+  "description": "Premium round side table with marble finish top and strong base. Ideal for luxury interiors.",
+  "price": 45999,
+  "rating": 4.6,
+  "image": "images/sidetable.jpg"
+},
+  {
+    "id": 4,
+    "name": "Single Seater Sofa Chair Set ",
+    "category": "Furniture",
+    "description":  "Comfortable single seater sofa chair with soft cushioning and sturdy wooden frame. Perfect for living rooms and reading corners",
+    "price": 16000,
+    "rating": 4.5,
+    "image": "images/chairs.jpg"
+  },
+  {
+  "id": 5,
+  "name": "Modern Open Bookshelf",
+  "category": "Furniture",
+  "description": "Stylish open bookshelf with minimal design and spacious compartments. Perfect for modern interiors.",
+  "price": 8000,
+  "rating": 4.3,
+  "image": "images/bookshelf.jpg"
+},
+  {
+    "id": 6,
+    "name": "Wooden Dining Table",
+    "category": "Kitchen & Dining",
+    "description": "6-seater solid sheesham wood dining table with elegant finish. Includes 6 cushioned chairs. Perfect for family meals.",
+    "price": 22000,
+    "rating": 4.4,
+    "image": "images/dining table.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Pendant Ceiling Light",
+    "category": "Lighting",
+    "description": "Modern gold-finish pendant light with warm LED bulb. Adjustable height, suitable for dining areas and living rooms.",
+    "price": 4999,
+    "rating": 4.3,
+      "image": "images/pendant ceiling light.jpg"
+  },
+  
+
+
+{
+  "id": 9,
+  "name": "LED Floor Lamp with Dimmer",
+  "category": "Lighting",
+  "description": "Adjustable LED floor lamp with dimmer control for customized brightness. Ideal for modern homes.",
+  "price": 3499,
+  "rating": 4.6,
+  "image": "images/ledlamp.jpg"
+},
+{
+  "id": 10,
+  "name": "Bedroom Wall Mounted Lamp",
+  "category": "Lighting",
+  "description": "Stylish wall mounted lamp designed for bedrooms, providing soft ambient lighting for a cozy feel.",
+  "price": 1999,
+  "rating": 4.4,
+  "image": "images/walllamp.jpg"
+},
+
+{
+    "id": 11,
+    "name": "Bathroom Vanity Mirror",
+    "category": "Bathroom Decor",
+    "description": "Hollywood-style LED vanity mirror with dimmer, anti-fog coating, and touch controls. 24-inch round frameless design.",
+    "price": 5999,
+    "rating": 4.5,
+    "image": "images/bathroom mirror.jpg"
+ },
+
+   {
+  "id": 12,
+  "name": "Adjustable Reading Lamp",
+  "category": "Lighting",
+  "description": "Flexible reading lamp with adjustable neck for focused lighting. Ideal for study and reading rooms.",
+  "price": 1499,
+  "rating": 4.5,
+  "image": "images/desklamp.jpg"
+},
+
+  
+ {
+  "id": 13,
+  "name": "Ceramic Indoor Planter",
+  "category": "Planters",
+  "description": "Elegant ceramic planter with smooth finish, perfect for indoor plants in living rooms and bedrooms.",
+  "price": 799,
+  "rating": 4.5,
+  "image": "images/planter1.jpg"
+},
+
+  {
+  "id": 15,
+  "name": "5-Piece Planter Set with Hanging Pot",
+  "category": "Planters",
+  "description": "Beautiful set of 5 planters including 1 hanging ceiling planter, 3 small tabletop planters, and 1 medium-sized planter. Perfect for decorating living rooms and bedrooms with a fresh and modern touch.",
+  "price": 1999,
+  "rating": 4.7,
+  "image": "images/planter3.jpg"
+},
+
+{
+  "id": 16,
+  "name": "Modern Minimal Planter Set",
+  "category": "Planters",
+  "description": "Set of 3 minimalist planters with clean design, ideal for decorating living spaces and shelves.",
+  "price": 1499,
+  "rating": 4.6,
+  "image": "images/setof3planters.jpg"
+},
+  {
+    "id": 17,
+    "name": "Bedside Table Lamp",
+    "category": "Lighting",
+    "description": "Minimalist touch-control table lamp with 3 colour temperature modes. USB charging port and memory function included.",
+    "price": 1899,
+    "rating": 4.2,
+     "image": "images/bedsidetablelamp.jpg"
+  },
+
+{
+  "id": 18,
+  "name": "Premium Ceramic Dinner Set (24 pcs)",
+  "category": "Kitchen & Dining",
+  "description": "Elegant 24-piece ceramic dinner set including plates and bowls, perfect for daily use and special occasions.",
+  "price": 3499,
+  "rating": 4.6,
+  "image": "images/dinnerset.jpg"
+},
+{
+  "id": 19,
+  "name": "Stainless Steel Cutlery Set",
+  "category": "Kitchen & Dining",
+  "description": "High-quality stainless steel cutlery set with spoons, forks, and knives for everyday dining.",
+  "price": 1299,
+  "rating": 4.4,
+  "image": "images/stainless stell.jpg"
+},
+{
+  "id": 20,
+  "name": "Wooden Serving Tray",
+  "category": "Kitchen & Dining",
+  "description": "Stylish wooden serving tray with handles, ideal for serving snacks, tea, and coffee.",
+  "price": 899,
+  "rating": 4.5,
+  "image": "images/woodenserving tray.jpg"
+},
+{
+  "id": 21,
+  "name": "Glass Storage Jar Set (4 pcs)",
+  "category": "Kitchen & Dining",
+  "description": "Set of 4 airtight glass jars perfect for storing spices, snacks, and kitchen essentials.",
+  "price": 999,
+  "rating": 4.3,
+  "image": "images/glassjar.jpg"
+},
+{
+  "id": 22,
+  "name": "Coffee Mug Set (6 pcs)",
+  "category": "Kitchen & Dining",
+  "description": "Modern ceramic coffee mug set ideal for tea and coffee lovers.",
+  "price": 1199,
+  "rating": 4.5,
+  "image": "images/cofee mug set.jpg"
+},
+{
+  "id": 23,
+  "name": "Elegant Glass Set (6 pcs)",
+  "category": "Kitchen & Dining",
+  "description": "Premium glass set suitable for serving water, juice, and beverages.",
+  "price": 899,
+  "rating": 4.4,
+  "image": "images/glass set.jpg"
+},
+
+  {
+  "id": 24,
+  "name": "Bathroom Accessories Set (4 pcs)",
+  "category": "Bathroom Decor",
+  "description": "Complete bathroom accessory set including soap dispenser, toothbrush holder, tumbler, and soap dish. Stylish and functional.",
+  "price": 1299,
+  "rating": 4.5,
+  "image": "images/bathroom acessoryset.jpg"
+},
+
+{
+  "id": 25,
+  "name": "Luxury Bath Mat",
+  "category": "Bathroom Decor",
+  "description": "Soft and absorbent bath mat with anti-slip backing for safety and comfort.",
+  "price": 799,
+  "rating": 4.4,
+  "image": "images/bathmat.jpg"
+},
+{
+  "id": 26,
+  "name": "Shower Curtain with Hooks",
+  "category": "Bathroom Decor",
+  "description": "Waterproof shower curtain with stylish prints and durable hooks included.",
+  "price": 999,
+  "rating": 4.5,
+  "image": "images/shower curtain.jpg"
+},
+{
+  "id": 27,
+  "name": "Wall Mounted Towel Rack",
+  "category": "Bathroom Decor",
+  "description": "Space-saving towel rack with modern design, ideal for organizing towels neatly.",
+  "price": 1199,
+  "rating": 4.4,
+  "image": "images/towel rack.jpg"
+},
+
+
+
+{
+  "id": 28,
+  "name": "Bathroom Shelf Organizer",
+  "category": "Bathroom Decor",
+  "description": "Wall-mounted shelf for storing toiletries and decor items, maximizing space efficiently.",
+  "price": 1499,
+  "rating": 4.5,
+  "image": "images/shelf organizer.jpg"
+},
+  {
+  "id": 29,
+  "name": "Elegant Table Runner",
+  "category": "Decorative Items",
+  "description": "Stylish table runner with premium fabric and modern design, perfect for enhancing your dining table decor.",
+  "price": 699,
+  "rating": 4.4,
+  "image": "images/table runner.jpg"
+},
+{
+  "id": 30,
+  "name": "White Plush Area Rug",
+  "category": "Decorative Items",
+  "description": "Soft and fluffy white rug that adds comfort and elegance to your living room or bedroom.",
+  "price": 1999,
+  "rating": 4.5,
+  "image": "images/rug.jpg"
+},
+{
+  "id": 31,
+  "name": "Scented Candle Jar",
+  "category": "Decorative Items",
+  "description": "Aromatic scented candle in a glass jar, perfect for relaxation and creating a cozy ambiance.",
+  "price": 499,
+  "rating": 4.6,
+  "image": "images/scented candles.jpg"
+},
+{
+  "id": 32,
+  "name": "Thinker Statue ",
+  "category": "Decorative Items",
+  "description": "Minimalist thinker statue  pieces, ideal for modern home decor and shelves.",
+  "price": 899,
+  "rating": 4.5,
+  "image": "images/img1.jpg"
+},
+
+{
+  "id": 34,
+  "name": "Donut Shaped Ceramic Vase",
+  "category": "Decorative Items",
+  "description": "Modern donut-shaped ceramic vase with a minimalist design, perfect for contemporary interiors.",
+  "price": 799,
+  "rating": 4.4,
+  "image": "images/donut shaped vase.jpg"
+},
+{
+  "id": 35,
+  "name": "Artificial Tulip Flower Set",
+  "category": "Decorative Items",
+  "description": "Beautiful artificial tulip flowers set that adds freshness and elegance without maintenance.",
+  "price": 599,
+  "rating": 4.5,
+  "image": "images/tulip flower set.jpg"
+},
+{
+  "id": 36,
+  "name": " flower vase ",
+  "category": "Decorative Items",
+  "description": "Beautiful ceramic flower vase with artifical flower adds elegance without maintenance.",
+  "price": 599,
+  "rating": 4.5,
+  "image": "images/flower vase.jpg"
+}
+]
