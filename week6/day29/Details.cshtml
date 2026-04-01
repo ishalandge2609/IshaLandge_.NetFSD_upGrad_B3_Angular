@@ -1,0 +1,14 @@
+﻿
+@model MyFirstMVCApp.Models.Product
+
+@{
+    <h2>Product Details</h2>
+
+<p><strong>Id:</strong> @Model.ProductId</p>
+<p><strong>Name:</strong> @Model.ProductName</p>
+<p><strong>Price:</strong> @Model.ProductPrice</p>
+<p><strong>Category:</strong> @Model.Category</p>
+
+<a asp-action="Index">Back to List</a>
+
+}
