@@ -1,0 +1,19 @@
+﻿@model MyFirstMVCApp.Models.Product
+<div class="card shadow p-4">
+<h2>Delete Product</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+
+<div>
+    <p><b>ID:</b> @Model.ProductId</p>
+    <p><b>Name:</b> @Model.ProductName</p>
+    <p><b>Price:</b> @Model.Price</p>
+    <p><b>Category:</b> @Model.Category</p>
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="ProductId" />
+    <button type="submit">Delete</button>
+    <a asp-action="Index">Cancel</a>
+</form>
+</div>
