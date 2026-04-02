@@ -1,0 +1,17 @@
+Problem Statement  : Student–Course System
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A college wants to develop a backend system to manage students and the courses they are enrolled in. Each student is enrolled in one course, while a course can have multiple students.
+
+The application should be built using ASP.NET Core Web API with Entity Framework Core to handle database operations.
+
+The system should:
+
+Store Course details (CourseId, CourseName)
+Store Student details (StudentId, StudentName, CourseId)
+Implement a one-to-many relationship between Course and Student using a foreign key
+Provide APIs to:
+Add courses
+Add students linked to a course
+Fetch student data along with course details
+
+The goal is to demonstrate how foreign key relationships, navigation properties, and data retrieval using Include() work in Entity Framework Core.
