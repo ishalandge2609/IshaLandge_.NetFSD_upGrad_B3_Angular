@@ -1,0 +1,51 @@
+﻿@model List<DataAccessLayer.Models.ContactInfo>
+
+<div class="container mt-4">
+    <h2 class="mb-3">Contact List</h2>
+    <hr />
+
+    <a asp-controller="Contact" asp-action="AddContact" class="btn btn-primary mb-3">
+        Add Contact
+    </a>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Company</th>
+                <th>Department</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ContactId</td>
+                    <td>@item.FirstName @item.LastName</td>
+                    <td>@item.EmailId</td>
+                    <td>@item.MobileNo</td>
+                    <td>@item.CompanyName</td>
+                    <td>@item.DepartmentName</td>
+                    <td>
+                        <a asp-controller="Contact" asp-action="EditContact" asp-route-id="@item.ContactId">
+                            Edit
+                        </a>
+                        |
+                        <a asp-controller="Contact" asp-action="DeleteContact" asp-route-id="@item.ContactId">
+                            Delete
+                        </a>
+                        |
+                        <a asp-controller="Contact" asp-action="GetContactById" asp-route-id="@item.ContactId">
+                            View
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
