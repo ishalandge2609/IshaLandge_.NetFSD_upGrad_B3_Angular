@@ -1,0 +1,680 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\helpers\\validationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\helpers\\validationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\helpers\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\productquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\productquerydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\orderitemdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\orderitemdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|c:\\users\\hp z book\\source\\repos\\shopez.webapi\\shopez.webapi\\shopez.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01605412-8845-8488-3F80-25AAD6A848F5}|ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj|solutionrelative:shopez.webapi\\shopez.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\ReadMe.txt",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\ReadMe.txt",
+              "RelativeToolTip": "ShopEZ.WebAPI\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-14T05:56:54.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\ProductService.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Services\\ProductService.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAuwI4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:25:31.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\appsettings.json",
+              "RelativeToolTip": "ShopEZ.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-10T16:34:47.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:58:36.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:40:24.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Services\\AuthService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:43:40.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\OrderService.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Services\\OrderService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAwwE0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:50:13.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\IProductService.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:20:25.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\IOrderService.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:49:36.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Program.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Program.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:26:50.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Services\\IAuthService.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:41:50.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:18:23.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Repositories\\OrderRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wBsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:47:58.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:37:15.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Repositories\\IProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:17:56.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:47:37.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\User.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:05:09.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\Product.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:42:36.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\OrderItem.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Models\\OrderItem.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T05:01:22.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T06:52:50.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ValidationErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Helpers\\ValidationErrorResponse.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Helpers\\ValidationErrorResponse.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Helpers\\ValidationErrorResponse.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Helpers\\ValidationErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T04:16:35.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:36:16.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Helpers\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Helpers\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Helpers\\ApiResponse.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Helpers\\ApiResponse.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T07:19:54.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Models\\Order.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T11:44:37.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T13:58:00.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T08:38:24.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\UserResponseDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\UserResponseDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:59:37.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:58:32.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\ProductResponseDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\ProductResponseDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\ProductResponseDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\ProductResponseDTO.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:53:33.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProductQueryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\ProductQueryDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\ProductQueryDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\ProductQueryDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\ProductQueryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T16:28:21.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\ProductCreateDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\ProductCreateDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\ProductCreateDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\ProductCreateDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:56:34.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderResponseDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\OrderResponseDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderResponseDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\OrderResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:03:43.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderItemDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\OrderItemDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderItemDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\OrderItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:59:54.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderItemDetailsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderItemDetailsDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\OrderItemDetailsDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderItemDetailsDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\OrderItemDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:06:14.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderCreateDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\OrderCreateDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\OrderCreateDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\OrderCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T16:01:42.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\DTOs\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\DTOs\\LoginDTO.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\DTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:58:49.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T15:08:29.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAmwGcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T04:05:11.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwDQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T09:03:36.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ShopEZ.WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-14T04:53:19.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ShopEZ.WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj",
+              "RelativeDocumentMoniker": "ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ShopEZ.WebAPI\\ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj",
+              "RelativeToolTip": "ShopEZ.WebAPI\\ShopEZ.WebAPI.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-13T10:53:22.827Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

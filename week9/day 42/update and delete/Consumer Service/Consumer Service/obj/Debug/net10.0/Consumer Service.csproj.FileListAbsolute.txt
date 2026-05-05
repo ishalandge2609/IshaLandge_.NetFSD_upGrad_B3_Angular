@@ -1,0 +1,37 @@
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\appsettings.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Consumer Service.staticwebassets.endpoints.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Consumer Service.exe
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Consumer Service.deps.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Consumer Service.runtimeconfig.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Consumer Service.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Consumer Service.pdb
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.csproj.AssemblyReference.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.AssemblyInfoInputs.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.AssemblyInfo.cs
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.csproj.CoreCompileInputs.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\scopedcss\bundle\Consumer Service.styles.css
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer.C7E53DB7.Up2Date
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\refint\Consumer Service.dll
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.pdb
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\Consumer Service.genruntimeconfig.cache
+C:\Users\HP Z BOOK\source\repos\Consumer Service\Consumer Service\obj\Debug\net10.0\ref\Consumer Service.dll

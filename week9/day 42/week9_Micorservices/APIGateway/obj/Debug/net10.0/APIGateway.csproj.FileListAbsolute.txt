@@ -1,0 +1,93 @@
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\appsettings.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\ocelot.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.staticwebassets.endpoints.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.exe
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.deps.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.runtimeconfig.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.pdb
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\FluentValidation.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Ocelot.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.csproj.AssemblyReference.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.AssemblyInfoInputs.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.AssemblyInfo.cs
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\scopedcss\bundle\APIGateway.styles.css
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.csproj.Up2Date
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\refint\APIGateway.dll
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.pdb
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.genruntimeconfig.cache
+C:\Users\HP Z BOOK\source\repos\week9_Micorservices\APIGateway\obj\Debug\net10.0\ref\APIGateway.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\appsettings.Development.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\appsettings.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\ocelot.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.staticwebassets.endpoints.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.exe
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.deps.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.runtimeconfig.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\APIGateway.pdb
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\FluentValidation.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\IPAddressRange.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Microsoft.OpenApi.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Ocelot.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.csproj.AssemblyReference.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.AssemblyInfoInputs.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.AssemblyInfo.cs
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.csproj.CoreCompileInputs.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.MvcApplicationPartsAssemblyInfo.cs
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.MvcApplicationPartsAssemblyInfo.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.sourcelink.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\scopedcss\bundle\APIGateway.styles.css
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.build.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.development.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\swae.build.ex.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.csproj.Up2Date
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\refint\APIGateway.dll
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.pdb
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\APIGateway.genruntimeconfig.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\APIGateway\obj\Debug\net10.0\ref\APIGateway.dll

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|c:\\users\\hp z book\\source\\repos\\productsservice\\productsservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|solutionrelative:productsservice\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|c:\\users\\hp z book\\source\\repos\\productsservice\\productsservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|solutionrelative:productsservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|c:\\users\\hp z book\\source\\repos\\productsservice\\productsservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|solutionrelative:productsservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|c:\\users\\hp z book\\source\\repos\\productsservice\\productsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B3ABA88-8122-6D1F-162A-6CE498E62084}|ProductsService\\ProductsService.csproj|solutionrelative:productsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProductsService\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProductsService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T16:22:10.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Program.cs",
+              "RelativeDocumentMoniker": "ProductsService\\Program.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Program.cs",
+              "RelativeToolTip": "ProductsService\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T16:11:10.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ProductsService\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ProductsService\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T11:41:54.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductsService\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\ProductsService\\ProductsService\\Models\\Product.cs",
+              "RelativeToolTip": "ProductsService\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T11:39:50.738Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

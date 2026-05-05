@@ -1,0 +1,696 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\data\\authdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\contactservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\contactservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\categoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\categoryservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8C21C21-F71A-4CF4-A1F9-EB948A8B7E74}|AuthService\\AuthService.csproj|solutionrelative:authservice\\authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\ocelot.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ABE66B30-BD47-A7B2-B17B-5BA67959B026}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\CategoryService\\Migrations\\20260416115008_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112758_SecondCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112522_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112002_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\services\\categoryservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\services\\categoryservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\data\\contactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\data\\contactdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\services\\contactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\services\\contactsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\services\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\services\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\data\\categorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\data\\categorydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\categoryservice\\migrations\\20260416115138_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89A075A6-AB8B-5CCC-10A3-9B458C4FF26C}|CategoryService\\CategoryService.csproj|solutionrelative:categoryservice\\migrations\\20260416115138_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|d:\\github\\ishalandge_.netfsd_upgrad_b3_angular\\week9\\day 42\\week9_micorservices\\contactservice\\migrations\\20260416114450_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF5ADBC9-41F7-AE4C-1446-E30EF6135A09}|ContactService\\ContactService.csproj|solutionrelative:contactservice\\migrations\\20260416114450_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Program.cs",
+              "RelativeDocumentMoniker": "AuthService\\Program.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Program.cs",
+              "RelativeToolTip": "AuthService\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:05:28.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:14:26.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AuthService\\Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "AuthService\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:08:06.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Program.cs",
+              "RelativeDocumentMoniker": "ContactService\\Program.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Program.cs",
+              "RelativeToolTip": "ContactService\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:40:06.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\appsettings.json",
+              "RelativeDocumentMoniker": "ContactService\\appsettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\appsettings.json",
+              "RelativeToolTip": "ContactService\\appsettings.json",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T09:30:30.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ContactService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ContactService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T11:11:18.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\appsettings.json",
+              "RelativeDocumentMoniker": "AuthService\\appsettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\appsettings.json",
+              "RelativeToolTip": "AuthService\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T17:04:44.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\IAuthService.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Services\\IAuthService.cs",
+              "RelativeToolTip": "AuthService\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:09:46.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "AuthService\\Services\\AuthServices.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Services\\AuthServices.cs",
+              "RelativeToolTip": "AuthService\\Services\\AuthServices.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:13:22.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AuthService\\Repository\\UserRepository.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "AuthService\\Repository\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T17:08:39.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AuthService\\Models\\User.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Models\\User.cs",
+              "RelativeToolTip": "AuthService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:53:45.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthDbContext.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Data\\AuthDbContext.cs",
+              "RelativeDocumentMoniker": "AuthService\\Data\\AuthDbContext.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Data\\AuthDbContext.cs",
+              "RelativeToolTip": "AuthService\\Data\\AuthDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T16:58:48.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AuthService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AuthService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T17:04:49.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Program.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Program.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Program.cs",
+              "RelativeToolTip": "CategoryService\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:15:23.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "APIGateway.csproj",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\APIGateway.csproj",
+              "RelativeDocumentMoniker": "APIGateway\\APIGateway.csproj",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\APIGateway.csproj",
+              "RelativeToolTip": "APIGateway\\APIGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T10:25:15.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.csproj",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\AuthService.csproj",
+              "RelativeDocumentMoniker": "AuthService\\AuthService.csproj",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\AuthService\\AuthService.csproj",
+              "RelativeToolTip": "AuthService\\AuthService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T16:50:11.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryService.csproj",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\CategoryService.csproj",
+              "RelativeDocumentMoniker": "CategoryService\\CategoryService.csproj",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\CategoryService.csproj",
+              "RelativeToolTip": "CategoryService\\CategoryService.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T09:22:57.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ContactService.csproj",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\ContactService.csproj",
+              "RelativeDocumentMoniker": "ContactService\\ContactService.csproj",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\ContactService.csproj",
+              "RelativeToolTip": "ContactService\\ContactService.csproj",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-16T08:46:12.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ocelot.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\ocelot.json",
+              "RelativeDocumentMoniker": "APIGateway\\ocelot.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\ocelot.json",
+              "RelativeToolTip": "APIGateway\\ocelot.json",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T10:26:40.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CategoryService\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CategoryService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T09:38:04.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CategoryService\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:43:47.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APIGateway\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APIGateway\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T10:36:51.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "APIGateway\\appsettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\APIGateway\\appsettings.json",
+              "RelativeToolTip": "APIGateway\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T11:52:37.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20260416115138_InitialCreate.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Migrations\\20260416115138_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Migrations\\20260416115138_InitialCreate.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Migrations\\20260416115138_InitialCreate.cs",
+              "RelativeToolTip": "CategoryService\\Migrations\\20260416115138_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:51:38.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20260416115008_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\CategoryService\\Migrations\\20260416115008_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\CategoryService\\Migrations\\20260416115008_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:50:08.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\appsettings.json",
+              "RelativeDocumentMoniker": "CategoryService\\appsettings.json",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\appsettings.json",
+              "RelativeToolTip": "CategoryService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-16T09:35:52.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Repository\\CategoryRepository.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "CategoryService\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAIBJwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:07:08.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20260416114450_InitialCreate.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Migrations\\20260416114450_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ContactService\\Migrations\\20260416114450_InitialCreate.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Migrations\\20260416114450_InitialCreate.cs",
+              "RelativeToolTip": "ContactService\\Migrations\\20260416114450_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:44:51.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20260416112758_SecondCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112758_SecondCreate.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112758_SecondCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:27:58.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260416112522_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112522_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112522_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:25:22.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260416112002_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112002_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\week9_Micorservices\\ContactService\\Migrations\\20260416112002_InitialCreate.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T11:20:02.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "ContactService\\Controllers\\ContactsController.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "ContactService\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAIwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:53:00.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryServiceManager.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Services\\CategoryServiceManager.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Services\\CategoryServiceManager.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Services\\CategoryServiceManager.cs",
+              "RelativeToolTip": "CategoryService\\Services\\CategoryServiceManager.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:13:12.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Services\\ICategoryService.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "CategoryService\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:10:14.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Repository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "CategoryService\\Repository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T10:08:02.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ContactDbContext.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Data\\ContactDbContext.cs",
+              "RelativeDocumentMoniker": "ContactService\\Data\\ContactDbContext.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Data\\ContactDbContext.cs",
+              "RelativeToolTip": "ContactService\\Data\\ContactDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:12:00.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Repository\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "ContactService\\Repository\\ContactRepository.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Repository\\ContactRepository.cs",
+              "RelativeToolTip": "ContactService\\Repository\\ContactRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:49:20.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Repository\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "ContactService\\Repository\\IContactRepository.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Repository\\IContactRepository.cs",
+              "RelativeToolTip": "ContactService\\Repository\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:46:52.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ContactsService.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Services\\ContactsService.cs",
+              "RelativeDocumentMoniker": "ContactService\\Services\\ContactsService.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Services\\ContactsService.cs",
+              "RelativeToolTip": "ContactService\\Services\\ContactsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:51:41.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Services\\IContactService.cs",
+              "RelativeDocumentMoniker": "ContactService\\Services\\IContactService.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Services\\IContactService.cs",
+              "RelativeToolTip": "ContactService\\Services\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:50:59.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CategoryDbContext.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Data\\CategoryDbContext.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Data\\CategoryDbContext.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Data\\CategoryDbContext.cs",
+              "RelativeToolTip": "CategoryService\\Data\\CategoryDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:26:31.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CategoryService\\Models\\Category.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\CategoryService\\Models\\Category.cs",
+              "RelativeToolTip": "CategoryService\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:23:23.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "ContactService\\Models\\Contact.cs",
+              "ToolTip": "D:\\github\\IshaLandge_.NetFSD_upGrad_B3_Angular\\week9\\day 42\\week9_Micorservices\\ContactService\\Models\\Contact.cs",
+              "RelativeToolTip": "ContactService\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:09:53.807Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.csproj.AssemblyReference.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\rpswa.dswa.cache.json
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.AssemblyInfoInputs.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.AssemblyInfo.cs
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.csproj.CoreCompileInputs.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.MvcApplicationPartsAssemblyInfo.cs
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.MvcApplicationPartsAssemblyInfo.cache
+D:\github\IshaLandge_.NetFSD_upGrad_B3_Angular\week9\day 42\week9_Micorservices\AuthService\obj\Debug\net10.0\AuthService.sourcelink.json

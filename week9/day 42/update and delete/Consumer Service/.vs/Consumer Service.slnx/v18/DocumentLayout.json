@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|c:\\users\\hp z book\\source\\repos\\consumer service\\consumer service\\services\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|solutionrelative:consumer service\\services\\productapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|c:\\users\\hp z book\\source\\repos\\consumer service\\consumer service\\services\\iproductapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|solutionrelative:consumer service\\services\\iproductapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|c:\\users\\hp z book\\source\\repos\\consumer service\\consumer service\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|solutionrelative:consumer service\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|c:\\users\\hp z book\\source\\repos\\consumer service\\consumer service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|solutionrelative:consumer service\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|c:\\users\\hp z book\\source\\repos\\consumer service\\consumer service\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|solutionrelative:consumer service\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|c:\\users\\hp z book\\source\\repos\\consumer service\\consumer service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{661DE529-AFCF-414C-B88C-AF85FC6540AC}|Consumer Service\\Consumer Service.csproj|solutionrelative:consumer service\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductApiService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Services\\ProductApiService.cs",
+              "RelativeDocumentMoniker": "Consumer Service\\Services\\ProductApiService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Services\\ProductApiService.cs",
+              "RelativeToolTip": "Consumer Service\\Services\\ProductApiService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:36:04.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductApiService.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Services\\IProductApiService.cs",
+              "RelativeDocumentMoniker": "Consumer Service\\Services\\IProductApiService.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Services\\IProductApiService.cs",
+              "RelativeToolTip": "Consumer Service\\Services\\IProductApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T05:33:37.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "Consumer Service\\Controllers\\DemoController.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "Consumer Service\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T18:47:47.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Consumer Service\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Models\\Product.cs",
+              "RelativeToolTip": "Consumer Service\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T18:37:23.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Program.cs",
+              "RelativeDocumentMoniker": "Consumer Service\\Program.cs",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Program.cs",
+              "RelativeToolTip": "Consumer Service\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T18:31:36.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Consumer Service\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\HP Z BOOK\\source\\repos\\Consumer Service\\Consumer Service\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Consumer Service\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T18:33:12.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

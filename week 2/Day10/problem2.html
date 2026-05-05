@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ShopPro - E-Commerce</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    :root {
+        --bs-primary: #5a189a;
+        --bs-secondary: #9d4edd;
+        --bs-success: #52b788;
+        --bs-dark: #240046;
+    }
+
+    body {
+        background-color: #f8f9fa;
+    }
+
+    .hero-section {
+        background: linear-gradient(135deg, #5a189a, #9d4edd);
+        color: white;
+        padding: 100px 0;
+    }
+
+    .section-title {
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .product-card img {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    footer {
+        background-color: #240046;
+        color: white;
+        padding: 40px 0;
+    }
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">ShopPro</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse d-none d-lg-flex">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Deals</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasMenu">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Deals</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<section class="hero-section text-center">
+  <div class="container">
+    <h1 class="display-4 fw-bold">Welcome to ShopPro</h1>
+    <p class="lead">Discover premium products at unbeatable prices</p>
+    <a href="#" class="btn btn-light btn-lg mt-3">Shop Now</a>
+  </div>
+</section>
+
+<div id="productCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/1200/400?1" class="d-block w-100" alt="Product 1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Latest Gadgets</h5>
+        <p>Explore cutting-edge technology</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1200/400?2" class="d-block w-100" alt="Product 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fashion Collection</h5>
+        <p>Upgrade your style today</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1200/400?3" class="d-block w-100" alt="Product 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Home Essentials</h5>
+        <p>Comfort & quality combined</p>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<section class="container my-5">
+  <h2 class="text-center section-title">Featured Products</h2>
+
+  <div class="row g-4">
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card product-card shadow-sm">
+        <img src="https://picsum.photos/300/200?4" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Smart Watch</h5>
+          <p>$99.99</p>
+          <button class="btn btn-primary w-100">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card product-card shadow-sm">
+        <img src="https://picsum.photos/300/200?5" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Wireless Headphones</h5>
+          <p>$79.99</p>
+          <button class="btn btn-primary w-100">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card product-card shadow-sm">
+        <img src="https://picsum.photos/300/200?6" class="card-img-top">
+        <div class="card-body text-center">
+          <h5>Gaming Mouse</h5>
+          <p>$49.99</p>
+          <button class="btn btn-primary w-100">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-light py-5">
+  <div class="container text-center">
+    <h3 class="mb-4">Subscribe to Our Newsletter</h3>
+
+    <form class="row justify-content-center">
+      <div class="col-md-6 col-lg-4 mb-3">
+        <input type="email" class="form-control" placeholder="Enter your email" required>
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-primary">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<footer class="text-center">
+  <div class="container">
+    <p class="mb-0">© 2026 ShopPro. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
