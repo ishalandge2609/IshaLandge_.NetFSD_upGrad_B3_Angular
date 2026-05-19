@@ -1,0 +1,221 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+
+      <div class="form-card fade-in">
+
+        <div class="text-center mb-4">
+
+          <div class="section-line mx-auto"></div>
+
+          <h2 class="section-heading" style="font-size: 28px;">
+            Create Account
+          </h2>
+
+          <p class="section-sub">
+            Join ShopEZ today
+          </p>
+
+        </div>
+
+        <form #registerForm="ngForm"
+              (ngSubmit)="onSubmit()">
+
+          <!-- EMAIL -->
+
+          <div class="mb-3">
+
+            <label class="form-label">
+              Email Address
+            </label>
+
+            <input
+              type="email"
+              class="form-control"
+              [class.is-invalid]="emailField.invalid && emailField.touched"
+              [(ngModel)]="email"
+              name="email"
+              #emailField="ngModel"
+              required
+              email
+              placeholder="you@example.com"/>
+
+            <!-- REQUIRED -->
+
+            <div class="invalid-feedback"
+                 *ngIf="emailField.errors?.['required'] && emailField.touched">
+
+              Email is required.
+
+            </div>
+
+            <!-- INVALID EMAIL -->
+
+            <div class="invalid-feedback"
+                 *ngIf="emailField.errors?.['email'] && emailField.touched">
+
+              Enter a valid email address.
+
+            </div>
+
+          </div>
+
+          <!-- PASSWORD -->
+
+          <div class="mb-3">
+
+            <label class="form-label">
+              Password
+            </label>
+
+            <input
+              type="password"
+              class="form-control"
+              [class.is-invalid]="
+                (passwordField.invalid && passwordField.touched)
+                ||
+                (password && !isPasswordValid)
+              "
+              [(ngModel)]="password"
+              name="password"
+              #passwordField="ngModel"
+              required
+              minlength="6"
+              placeholder="••••••"/>
+
+            <!-- REQUIRED -->
+
+            <div class="invalid-feedback"
+                 *ngIf="passwordField.errors?.['required'] && passwordField.touched">
+
+              Password is required.
+
+            </div>
+
+            <!-- MIN LENGTH -->
+
+            <div class="invalid-feedback"
+                 *ngIf="passwordField.errors?.['minlength'] && passwordField.touched">
+
+              Password must be at least 6 characters.
+
+            </div>
+
+            <!-- CUSTOM PASSWORD VALIDATION -->
+
+            <div class="invalid-feedback"
+                 *ngIf="password && !isPasswordValid">
+
+              Password must contain uppercase,
+              lowercase and number.
+
+            </div>
+
+          </div>
+
+          <!-- CONFIRM PASSWORD -->
+
+          <div class="mb-3">
+
+            <label class="form-label">
+              Confirm Password
+            </label>
+
+            <input
+              type="password"
+              class="form-control"
+              [class.is-invalid]="
+                confirmField.touched &&
+                (!doPasswordsMatch || confirmField.invalid)
+              "
+              [(ngModel)]="confirmPassword"
+              name="confirmPassword"
+              #confirmField="ngModel"
+              required/>
+
+            <!-- REQUIRED -->
+
+            <div class="invalid-feedback"
+                 *ngIf="confirmField.errors?.['required'] && confirmField.touched">
+
+              Please confirm your password.
+
+            </div>
+
+            <!-- PASSWORD MATCH -->
+
+            <div class="invalid-feedback"
+                 *ngIf="confirmPassword && !doPasswordsMatch">
+
+              Passwords do not match.
+
+            </div>
+
+          </div>
+
+          <!-- ERROR MESSAGE -->
+
+          <div class="alert alert-danger"
+               *ngIf="errorMessage">
+
+            {{ errorMessage }}
+
+          </div>
+
+          <!-- SUCCESS MESSAGE -->
+
+          <div class="alert alert-success"
+               *ngIf="successMessage">
+
+            {{ successMessage }}
+
+          </div>
+
+          <!-- SUBMIT BUTTON -->
+
+          <button
+            type="submit"
+            class="btn btn-primary w-100 btn-lg"
+            [disabled]="
+              registerForm.invalid ||
+              isLoading ||
+              !isPasswordValid ||
+              !doPasswordsMatch
+            ">
+
+            <span *ngIf="isLoading"
+                  class="spinner-border spinner-border-sm me-2">
+            </span>
+
+            <i class="bi bi-person-plus me-2"
+               *ngIf="!isLoading">
+            </i>
+
+            {{ isLoading ? 'Creating Account...' : 'Register' }}
+
+          </button>
+
+        </form>
+
+        <div class="text-center mt-4">
+
+          <p class="mb-0">
+
+            Already have an account?
+
+            <a routerLink="/login"
+               class="text-primary">
+
+              Sign In
+
+            </a>
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

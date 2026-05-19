@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/testing/">
+    <Project Path="AuthService.Tests/AuthService.Tests.csproj" Id="2273c4e7-c42f-4eac-ba60-6a3d90b11a4a" />
+    <Project Path="OrderService.Tests/OrderService.Tests.csproj" Id="5953911d-3625-47bf-82c9-322c4bd4c810" />
+    <Project Path="ProductService.Tests/ProductService.Tests.csproj" />
+  </Folder>
+  <Project Path="ApiGateway/ApiGateway.csproj" />
+  <Project Path="AuthService.API/AuthService.API.csproj" />
+  <Project Path="OrderService.API/OrderService.API.csproj" />
+  <Project Path="ProductService.API/ProductService.API.csproj" />
+</Solution>

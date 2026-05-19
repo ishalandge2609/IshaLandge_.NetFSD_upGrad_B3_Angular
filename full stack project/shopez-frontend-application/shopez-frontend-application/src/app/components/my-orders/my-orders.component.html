@@ -1,0 +1,78 @@
+<div class="page-title-bar">
+  <div class="container">
+    <h2>My Orders</h2>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+        <li class="breadcrumb-item active">My Orders</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="container pb-5">
+  <!-- Loading -->
+  <div *ngIf="loading" class="text-center py-5">
+    <div class="spinner-border text-primary" role="status"></div>
+  </div>
+
+  <!-- Orders List -->
+  <div *ngIf="!loading && orders.length > 0" class="row">
+    <div *ngFor="let order of orders" class="col-12 mb-4">
+      <div class="form-card fade-in">
+        <div class="d-flex justify-content-between align-items-start flex-wrap gap-3 mb-3">
+          <div>
+            <h5 class="mb-1">Order #{{ order.orderId }}</h5>
+            <small class="text-muted">{{ order.orderDate | date:'medium' }}</small>
+          </div>
+          <div class="d-flex gap-2 align-items-center">
+            <span class="badge" [ngClass]="getStatusBadgeClass(order.status)" style="padding: 8px 16px;">
+              {{ order.status }}
+            </span>
+            <!-- Cancel Button - Only show for non-cancelled and non-delivered orders -->
+            <button *ngIf="canCancelOrder(order.status)" 
+                    class="btn btn-sm btn-danger" 
+                    (click)="cancelOrder(order.orderId)"
+                    [disabled]="cancellingOrderId === order.orderId">
+              <span *ngIf="cancellingOrderId === order.orderId" class="spinner-border spinner-border-sm me-1"></span>
+              <i class="bi bi-x-circle me-1" *ngIf="cancellingOrderId !== order.orderId"></i>
+              {{ cancellingOrderId === order.orderId ? 'Cancelling...' : 'Cancel Order' }}
+            </button>
+          </div>
+        </div>
+        
+        <hr style="border-color: var(--border);">
+        
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+              <tr><th>Product</th><th>Quantity</th><th>Unit Price</th><th>Total</th></tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of order.items">
+                <td>{{ item.productName }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ formatPrice(item.unitPrice) }}</td>
+                <td>{{ formatPrice(item.unitPrice * item.quantity) }}</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr class="fw-bold">
+                <td colspan="3" class="text-end">Grand Total:</td>
+                <td>{{ formatPrice(order.totalAmount) }}</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Empty State -->
+  <div *ngIf="!loading && orders.length === 0" class="empty-state">
+    <div class="empty-icon"><i class="bi bi-box-seam"></i></div>
+    <h4>No Orders Yet</h4>
+    <p>Looks like you haven't placed any orders yet.</p>
+    <a routerLink="/products" class="btn btn-primary">Start Shopping</a>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <div class="footer-brand">Shop<span>EZ</span></div>
+        <p class="footer-desc">Your one-stop shop for beautiful home decor and lifestyle products at the best prices.</p>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <div class="footer-head">Shop</div>
+
+        <div class="footer-links">
+          <a routerLink="/products">All Products</a>
+
+          <a routerLink="/products" [queryParams]="{cat: 'Furniture'}">
+            Furniture
+          </a>
+
+          <a routerLink="/products" [queryParams]="{cat: 'Lighting'}">
+            Lighting
+          </a>
+
+          <a routerLink="/products" [queryParams]="{cat: 'Planters'}">
+            Planters
+          </a>
+
+          <a routerLink="/products" [queryParams]="{cat: 'Kitchen & Dining'}">
+            Kitchen & Dining
+          </a>
+
+          <a routerLink="/products" [queryParams]="{cat: 'Bathroom Decor'}">
+            Bathroom Decor
+          </a>
+
+          <a routerLink="/products" [queryParams]="{cat: 'Decorative Items'}">
+            Decorative Items
+          </a>
+        </div>
+      </div>
+
+      <div class="col-6 col-lg-2">
+        <div class="footer-head">Help</div>
+
+        <div class="footer-links">
+          <a href="#">Shipping Info</a>
+          <a href="#">Returns</a>
+          <a href="#">FAQ</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="footer-head">Newsletter</div>
+
+        <p style="font-size:13px;margin-bottom:12px">
+          Get deals and offers in your inbox.
+        </p>
+
+        <div class="d-flex gap-2">
+
+          <input
+            type="email"
+            placeholder="your@email.com"
+            class="form-control form-control-sm"
+            #emailInput/>
+
+          <button
+            class="btn btn-primary btn-sm"
+            (click)="subscribe(emailInput.value)">
+
+            Subscribe
+
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 ShopEZ. All rights reserved.
+    </div>
+  </div>
+</footer>

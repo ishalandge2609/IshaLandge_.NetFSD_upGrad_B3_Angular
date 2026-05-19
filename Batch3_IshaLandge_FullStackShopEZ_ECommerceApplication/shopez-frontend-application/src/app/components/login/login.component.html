@@ -1,0 +1,153 @@
+<div class="container py-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-5">
+
+      <div class="form-card fade-in">
+
+        <div class="text-center mb-4">
+
+          <div class="section-line mx-auto"></div>
+
+          <h2 class="section-heading" style="font-size: 28px;">
+            Welcome Back
+          </h2>
+
+          <p class="section-sub">
+            Sign in to your account
+          </p>
+
+        </div>
+
+        <form #loginForm="ngForm"
+              (ngSubmit)="onSubmit()">
+
+          <!-- EMAIL -->
+
+          <div class="mb-3">
+
+            <label class="form-label">
+              Email Address
+            </label>
+
+            <input
+              type="email"
+              class="form-control"
+              [class.is-invalid]="emailField.invalid && emailField.touched"
+              [(ngModel)]="email"
+              name="email"
+              #emailField="ngModel"
+              required
+              email
+              placeholder="you@example.com"/>
+
+            <!-- REQUIRED -->
+
+            <div class="invalid-feedback"
+                 *ngIf="emailField.errors?.['required'] && emailField.touched">
+
+              Email is required.
+
+            </div>
+
+            <!-- INVALID EMAIL -->
+
+            <div class="invalid-feedback"
+                 *ngIf="emailField.errors?.['email'] && emailField.touched">
+
+              Enter a valid email address.
+
+            </div>
+
+          </div>
+
+          <!-- PASSWORD -->
+
+          <div class="mb-3">
+
+            <label class="form-label">
+              Password
+            </label>
+
+            <input
+              type="password"
+              class="form-control"
+              [class.is-invalid]="passwordField.invalid && passwordField.touched"
+              [(ngModel)]="password"
+              name="password"
+              #passwordField="ngModel"
+              required
+              minlength="6"
+              placeholder="••••••"/>
+
+            <!-- REQUIRED -->
+
+            <div class="invalid-feedback"
+                 *ngIf="passwordField.errors?.['required'] && passwordField.touched">
+
+              Password is required.
+
+            </div>
+
+            <!-- MIN LENGTH -->
+
+            <div class="invalid-feedback"
+                 *ngIf="passwordField.errors?.['minlength'] && passwordField.touched">
+
+              Password must be at least 6 characters.
+
+            </div>
+
+          </div>
+
+          <!-- ERROR MESSAGE -->
+
+          <div class="alert alert-danger"
+               *ngIf="errorMessage">
+
+            {{ errorMessage }}
+
+          </div>
+
+          <!-- SUBMIT BUTTON -->
+
+          <button
+            type="submit"
+            class="btn btn-primary w-100 btn-lg"
+            [disabled]="loginForm.invalid || isLoading">
+
+            <span *ngIf="isLoading"
+                  class="spinner-border spinner-border-sm me-2">
+            </span>
+
+            <i class="bi bi-box-arrow-in-right me-2"
+               *ngIf="!isLoading">
+            </i>
+
+            {{ isLoading ? 'Logging in...' : 'Login' }}
+
+          </button>
+
+        </form>
+
+        <div class="text-center mt-4">
+
+          <p class="mb-0">
+
+            Don't have an account?
+
+            <a routerLink="/register"
+               class="text-primary">
+
+              Create Account
+
+            </a>
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

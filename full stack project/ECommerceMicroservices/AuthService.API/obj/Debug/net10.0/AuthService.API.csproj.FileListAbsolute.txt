@@ -1,0 +1,288 @@
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.staticwebassets.endpoints.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.exe
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.deps.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.runtimeconfig.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.pdb
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Dapper.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.AssemblyReference.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfoInputs.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfo.cs
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.CoreCompileInputs.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\scopedcss\bundle\AuthService.API.styles.css
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthServ.AA2E8EA6.Up2Date
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\refint\AuthService.API.dll
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.pdb
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.genruntimeconfig.cache
+C:\Users\jagad\source\repos\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\ref\AuthService.API.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.staticwebassets.endpoints.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.exe
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.deps.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.runtimeconfig.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.pdb
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Dapper.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.AssemblyReference.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfoInputs.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfo.cs
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.CoreCompileInputs.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\scopedcss\bundle\AuthService.API.styles.css
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthServ.AA2E8EA6.Up2Date
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\refint\AuthService.API.dll
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.pdb
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.genruntimeconfig.cache
+C:\Users\HP Z BOOK\Downloads\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\ref\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.staticwebassets.endpoints.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.exe
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.deps.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.runtimeconfig.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.pdb
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Dapper.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.AssemblyReference.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfoInputs.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfo.cs
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.CoreCompileInputs.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\scopedcss\bundle\AuthService.API.styles.css
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthServ.AA2E8EA6.Up2Date
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\refint\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.pdb
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.genruntimeconfig.cache
+C:\Users\HP Z BOOK\Desktop\ECommerceMicroservices\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\ref\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\appsettings.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.staticwebassets.endpoints.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.exe
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.deps.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.runtimeconfig.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\AuthService.API.pdb
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Dapper.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Extensions.Abstractions.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.Data.SqlClient.Internal.Logging.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.AssemblyReference.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfoInputs.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.AssemblyInfo.cs
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.csproj.CoreCompileInputs.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\scopedcss\bundle\AuthService.API.styles.css
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthServ.AA2E8EA6.Up2Date
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\refint\AuthService.API.dll
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.pdb
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\AuthService.API.genruntimeconfig.cache
+C:\Users\HP Z BOOK\Desktop\full stack project\ECommerceMicroservices\AuthService.API\obj\Debug\net10.0\ref\AuthService.API.dll

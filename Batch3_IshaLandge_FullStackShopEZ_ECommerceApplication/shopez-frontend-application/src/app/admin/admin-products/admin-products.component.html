@@ -1,0 +1,112 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">Products Management</h1>
+  <div class="btn-toolbar mb-2 mb-md-0">
+    <a routerLink="/admin/add-product" class="btn btn-sm btn-primary">
+      <i class="bi bi-plus-lg me-1"></i> Add Product
+    </a>
+  </div>
+</div>
+
+<!-- Search Bar -->
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Search products by name or category..." 
+               [(ngModel)]="searchQuery" (input)="filterProducts()">
+      </div>
+      <div class="col-md-6 text-end">
+        <span class="text-muted">{{ filteredProducts.length }} products found</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Loading Spinner -->
+<div *ngIf="loading" class="text-center py-5">
+  <div class="spinner-border text-primary" role="status"></div>
+</div>
+
+<!-- Products Table -->
+<div *ngIf="!loading" class="card">
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of filteredProducts">
+            <td>{{ product.id }}</td>
+            <td>
+              <img [src]="productService.getFullImageUrl(product.imageUrl)" 
+                   [alt]="product.name" style="width: 50px; height: 50px; object-fit: cover; border-radius: 8px;">
+              </td>
+            <td>{{ product.name }}</td>
+            <td><span class="badge bg-secondary">{{ product.category }}</span></td>
+            <td>{{ formatPrice(product.price) }}</td>
+            <td>
+              <span [class.text-danger]="product.stock < 10" class="fw-bold">
+                {{ product.stock }}
+              </span>
+              </td>
+            <td>
+              <div class="btn-group btn-group-sm">
+                <a [routerLink]="['/admin/edit-product', product.id]" class="btn btn-outline-primary">
+                  <i class="bi bi-pencil"></i>
+                </a>
+                <button class="btn btn-outline-warning" (click)="openStockModal(product, 'reduce')">
+                  <i class="bi bi-dash-circle"></i>
+                </button>
+                <button class="btn btn-outline-success" (click)="openStockModal(product, 'restore')">
+                  <i class="bi bi-plus-circle"></i>
+                </button>
+                <button class="btn btn-outline-danger" (click)="deleteProduct(product.id)">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </div>
+              </td>
+            </tr>
+          <tr *ngIf="filteredProducts.length === 0">
+            <td colspan="7" class="text-center py-4">No products found</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Stock Management Modal -->
+<div class="modal" [class.show]="showStockModal" [style.display]="showStockModal ? 'block' : 'none'" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">
+          {{ stockAction === 'reduce' ? 'Reduce' : 'Restore' }} Stock
+        </h5>
+        <button type="button" class="btn-close" (click)="showStockModal = false"></button>
+      </div>
+      <div class="modal-body">
+        <p>Product: <strong>{{ selectedProduct?.name }}</strong></p>
+        <p>Current Stock: <strong>{{ selectedProduct?.stock }}</strong></p>
+        <div class="mb-3">
+          <label class="form-label">Quantity</label>
+          <input type="number" class="form-control" [(ngModel)]="stockQuantity" min="1" [max]="(stockAction === 'reduce' ? selectedProduct?.stock : 999) ?? 999">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="showStockModal = false">Cancel</button>
+        <button type="button" class="btn btn-primary" (click)="updateStock()">Confirm</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal-backdrop fade" *ngIf="showStockModal"></div>

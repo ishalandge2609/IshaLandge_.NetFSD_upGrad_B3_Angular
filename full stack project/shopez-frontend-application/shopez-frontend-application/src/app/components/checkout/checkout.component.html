@@ -1,0 +1,498 @@
+<div class="page-title-bar">
+  <div class="container">
+    <h2>Checkout</h2>
+
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item">
+          <a routerLink="/home">Home</a>
+        </li>
+
+        <li class="breadcrumb-item">
+          <a routerLink="/cart">Cart</a>
+        </li>
+
+        <li class="breadcrumb-item active">
+          Checkout
+        </li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+<div class="container pb-5" *ngIf="!orderPlaced; else successTemplate">
+
+  <div class="row g-4">
+
+    <!-- LEFT SIDE -->
+    <div class="col-lg-7">
+
+      <form
+        #checkoutForm="ngForm"
+        (ngSubmit)="placeOrder(checkoutForm)"
+        novalidate
+      >
+
+        <!-- CONTACT INFO -->
+        <div class="form-card">
+
+          <h5>1. Contact Information</h5>
+
+          <div class="row g-3">
+
+            <!-- FULL NAME -->
+            <div class="col-12">
+
+              <label class="form-label">
+                Full Name *
+              </label>
+
+              <input
+                type="text"
+                class="form-control"
+                name="fullName"
+                [(ngModel)]="orderData.fullName"
+                #fullName="ngModel"
+                required
+                minlength="3"
+                [class.is-invalid]="fullName.invalid && fullName.touched"
+              />
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="fullName.invalid && fullName.touched"
+              >
+
+                <small *ngIf="fullName.errors?.['required']">
+                  Please enter your full name
+                </small>
+
+                <small *ngIf="fullName.errors?.['minlength']">
+                  Name must be at least 3 characters
+                </small>
+
+              </div>
+
+            </div>
+
+            <!-- EMAIL -->
+            <div class="col-md-6">
+
+              <label class="form-label">
+                Email Address *
+              </label>
+
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                [(ngModel)]="orderData.email"
+                #email="ngModel"
+                required
+                email
+                [class.is-invalid]="email.invalid && email.touched"
+              />
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="email.invalid && email.touched"
+              >
+
+                <small *ngIf="email.errors?.['required']">
+                  Please enter your email address
+                </small>
+
+                <small *ngIf="email.errors?.['email']">
+                  Please enter a valid email
+                </small>
+
+              </div>
+
+            </div>
+
+            <!-- PHONE -->
+            <div class="col-md-6">
+
+              <label class="form-label">
+                Phone Number *
+              </label>
+
+              <input
+                type="tel"
+                class="form-control"
+                name="phone"
+                [(ngModel)]="orderData.phone"
+                #phone="ngModel"
+                required
+                pattern="^[0-9]{10}$"
+                [class.is-invalid]="phone.invalid && phone.touched"
+              />
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="phone.invalid && phone.touched"
+              >
+
+                <small *ngIf="phone.errors?.['required']">
+                  Please enter phone number
+                </small>
+
+                <small *ngIf="phone.errors?.['pattern']">
+                  Enter valid 10-digit mobile number
+                </small>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- SHIPPING -->
+        <div class="form-card">
+
+          <h5>2. Shipping Address</h5>
+
+          <div class="row g-3">
+
+            <!-- ADDRESS -->
+            <div class="col-12">
+
+              <label class="form-label">
+                Street Address *
+              </label>
+
+              <input
+                type="text"
+                class="form-control"
+                name="address"
+                [(ngModel)]="orderData.address"
+                #address="ngModel"
+                required
+                minlength="5"
+                [class.is-invalid]="address.invalid && address.touched"
+              />
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="address.invalid && address.touched"
+              >
+
+                <small *ngIf="address.errors?.['required']">
+                  Please enter your address
+                </small>
+
+                <small *ngIf="address.errors?.['minlength']">
+                  Address must be at least 5 characters
+                </small>
+
+              </div>
+
+            </div>
+
+            <!-- STATE -->
+            <div class="col-md-4">
+
+              <label class="form-label">
+                State *
+              </label>
+
+              <select
+                class="form-control"
+                name="state"
+                [(ngModel)]="orderData.state"
+                #state="ngModel"
+                required
+                [class.is-invalid]="state.invalid && state.touched"
+              >
+
+                <option value="">
+                  Select state
+                </option>
+
+                <option>Maharashtra</option>
+                <option>Karnataka</option>
+                <option>Tamil Nadu</option>
+                <option>Delhi</option>
+                <option>Gujarat</option>
+                <option>Rajasthan</option>
+                <option>West Bengal</option>
+                <option>Kerala</option>
+                <option>Telangana</option>
+                <option>Punjab</option>
+                <option>Other</option>
+
+              </select>
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="state.invalid && state.touched"
+              >
+
+                <small>
+                  Please select your state
+                </small>
+
+              </div>
+
+            </div>
+
+            <!-- CITY -->
+            <div class="col-md-5">
+
+              <label class="form-label">
+                City *
+              </label>
+
+              <input
+                type="text"
+                class="form-control"
+                name="city"
+                [(ngModel)]="orderData.city"
+                #city="ngModel"
+                required
+                [class.is-invalid]="city.invalid && city.touched"
+              />
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="city.invalid && city.touched"
+              >
+
+                <small>
+                  Please enter your city
+                </small>
+
+              </div>
+
+            </div>
+
+            <!-- PINCODE -->
+            <div class="col-md-3">
+
+              <label class="form-label">
+                PIN Code *
+              </label>
+
+              <input
+                type="text"
+                class="form-control"
+                name="pincode"
+                [(ngModel)]="orderData.pincode"
+                #pincode="ngModel"
+                required
+                pattern="^[0-9]{6}$"
+                [class.is-invalid]="pincode.invalid && pincode.touched"
+              />
+
+              <div
+                class="text-danger mt-1"
+                *ngIf="pincode.invalid && pincode.touched"
+              >
+
+                <small *ngIf="pincode.errors?.['required']">
+                  Please enter PIN code
+                </small>
+
+                <small *ngIf="pincode.errors?.['pattern']">
+                  Enter valid 6-digit PIN code
+                </small>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <!-- PAYMENT -->
+        <div class="form-card">
+
+          <h5>3. Payment Method</h5>
+
+          <div class="d-flex flex-column gap-2">
+
+            <label
+              class="d-flex align-items-center gap-3 p-3 rounded"
+              style="border:1.5px solid #0d6efd;background:#e7f1ff;cursor:pointer"
+            >
+
+              <input
+                type="radio"
+                name="payment"
+                value="cod"
+                [(ngModel)]="orderData.paymentMethod"
+                checked
+                style="accent-color:#0d6efd"
+              />
+
+              <span style="font-weight:500">
+
+                <i class="bi bi-cash-coin me-2"></i>
+
+                Cash on Delivery
+
+              </span>
+
+            </label>
+
+          </div>
+
+        </div>
+
+        <!-- BUTTON -->
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg w-100"
+          [disabled]="isProcessing"
+          style="font-size:16px"
+        >
+
+          <span
+            *ngIf="isProcessing"
+            class="spinner-border spinner-border-sm me-2"
+          ></span>
+
+          <i
+            class="bi bi-bag-check me-2"
+            *ngIf="!isProcessing"
+          ></i>
+
+          {{ isProcessing ? 'Processing...' : 'Place Order' }}
+
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="col-lg-5">
+
+      <div class="summary-box fade-in">
+
+        <h4>Your Order</h4>
+
+        <div
+          style="margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #e0e0e0"
+        >
+
+          <div
+            *ngFor="let item of cartItems()"
+            style="display:flex;align-items:center;gap:12px;margin-bottom:14px"
+          >
+
+            <img
+              [src]="productService.getFullImageUrl(item.imageUrl)"
+              alt="{{item.name}}"
+              style="width:50px;height:44px;object-fit:cover;border-radius:7px;background:#f1f3f5"
+            />
+
+            <div style="flex:1">
+
+              <div
+                style="font-size:13px;font-weight:600;color:#1a1a2e"
+              >
+                {{ item.name }}
+              </div>
+
+              <div
+                style="font-size:12px;color:#6c757d"
+              >
+                Qty: {{ item.quantity }}
+              </div>
+
+            </div>
+
+            <div
+              style="font-size:13.5px;font-weight:700;white-space:nowrap"
+            >
+              {{ formatPrice(item.price * item.quantity) }}
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>{{ formatPrice(subtotal) }}</span>
+        </div>
+
+        <div class="summary-row">
+          <span>Shipping</span>
+          <span>
+            {{ shipping === 0 ? 'FREE' : formatPrice(shipping) }}
+          </span>
+        </div>
+
+        <div class="summary-row">
+          <span>GST (18%)</span>
+          <span>{{ formatPrice(tax) }}</span>
+        </div>
+
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>{{ formatPrice(total) }}</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- SUCCESS -->
+<ng-template #successTemplate>
+
+  <div class="container py-5">
+
+    <div class="success-box fade-in">
+
+      <div class="success-circle">
+        <i class="bi bi-check-lg"></i>
+      </div>
+
+      <h3>Order Placed!</h3>
+
+      <p>
+        Thank you,
+        <strong>{{ orderData.fullName }}</strong>!
+        Your order has been confirmed.
+        <br>
+        A confirmation will be sent to
+        <strong>{{ orderData.email }}</strong>.
+      </p>
+
+      <div class="d-flex gap-3 justify-content-center flex-wrap">
+
+        <a
+          routerLink="/home"
+          class="btn btn-primary"
+        >
+          Back to Home
+        </a>
+
+        <a
+          routerLink="/products"
+          class="btn btn-outline-secondary"
+        >
+          Shop More
+        </a>
+
+        <a
+          routerLink="/my-orders"
+          class="btn btn-outline-primary"
+        >
+          View My Orders
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</ng-template>

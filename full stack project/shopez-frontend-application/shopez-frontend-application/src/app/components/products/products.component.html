@@ -1,0 +1,81 @@
+<!-- Page Title Bar -->
+<div class="page-title-bar">
+  <div class="container d-flex align-items-center justify-content-between flex-wrap gap-2">
+    <div>
+      <h2>All Products</h2>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a routerLink="/home">Home</a></li>
+          <li class="breadcrumb-item active">Products</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-5">
+  <!-- Filters -->
+  <div class="filter-bar">
+    <button class="filter-btn" [class.active]="activeCategory === 'All'" (click)="filterByCategory('All')">
+      <i class="bi bi-grid-fill me-1"></i>All
+    </button>
+    <button class="filter-btn" [class.active]="activeCategory === cat" *ngFor="let cat of categories" (click)="filterByCategory(cat)">
+      <i [class]="getCategoryIcon(cat)"></i> {{ cat }}
+    </button>
+  </div>
+
+  <!-- Sort and Search -->
+  <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+    <span style="font-size:13px;color:#6c757d">{{ filteredProducts.length }} product(s) found</span>
+    <div class="d-flex gap-2">
+      <div style="position:relative;max-width:280px;width:100%">
+        <input type="text" [(ngModel)]="searchQuery" (ngModelChange)="onSearchChange()" placeholder="Search products…" class="form-control" style="padding-left:36px"/>
+        <span style="position:absolute;left:11px;top:50%;transform:translateY(-50%);color:#999;font-size:14px"><i class="bi bi-search"></i></span>
+      </div>
+      <select class="form-select form-select-sm" style="width:auto" [(ngModel)]="sortOrder" (change)="applySort()">
+        <option value="">Sort: Default</option>
+        <option value="asc">Price: Low to High</option>
+        <option value="desc">Price: High to Low</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div *ngIf="loading" class="text-center py-5">
+    <div class="spinner-border text-primary" role="status"></div>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="row" *ngIf="!loading">
+    <div *ngFor="let product of filteredProducts" class="col-md-6 col-lg-3 mb-4">
+      <div class="product-card fade-in">
+        <div class="card-img-wrap">
+          <img [src]="productService.getFullImageUrl(product.imageUrl)" [alt]="product.name" loading="lazy"/>
+          <span class="card-category">{{ product.category }}</span>
+        </div>
+        <div class="card-body">
+          <div class="card-title">{{ product.name }}</div>
+          <div class="card-desc">{{ product.description }}</div>
+          <div class="card-price">{{ formatPrice(product.price) }} <small>/unit</small></div>
+          <div class="card-actions">
+            <a [routerLink]="['/product', product.id]" class="btn-details">
+              Product Details
+            </a>
+            <button class="btn-addcart" (click)="addToCart(product)">
+              <i class="bi bi-cart-plus me-1"></i>Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Empty State -->
+    <div *ngIf="filteredProducts.length === 0" class="col-12">
+      <div class="empty-state">
+        <div class="empty-icon"><i class="bi bi-search"></i></div>
+        <h4>No products found</h4>
+        <p>Try a different category or search term.</p>
+      </div>
+    </div>
+  </div>
+</div>

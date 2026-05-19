@@ -1,0 +1,58 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">User Management</h1>
+</div>
+
+<!-- Search Bar -->
+<div class="card mb-4">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Search users by email or role..." 
+               [(ngModel)]="searchQuery" (input)="filterUsers()">
+      </div>
+      <div class="col-md-6 text-end">
+        <span class="text-muted">{{ filteredUsers.length }} users found</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Loading Spinner -->
+<div *ngIf="loading" class="text-center py-5">
+  <div class="spinner-border text-primary" role="status"></div>
+</div>
+
+<!-- Users Table -->
+<div *ngIf="!loading" class="card">
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of filteredUsers">
+            <td>{{ user.id }}</td>
+            <td>{{ user.email }}</td>
+            <td><span class="badge" [ngClass]="getRoleBadgeClass(user.role)">{{ user.role }}</span></td>
+            <td>
+              <button class="btn btn-sm" [class.btn-warning]="user.role === 'User'" [class.btn-secondary]="user.role === 'Admin'" 
+                      (click)="changeRole(user)">
+                <i class="bi bi-arrow-repeat me-1"></i>
+                {{ user.role === 'Admin' ? 'Demote to User' : 'Promote to Admin' }}
+              </button>
+              </td>
+          </tr>
+          <tr *ngIf="filteredUsers.length === 0">
+            <td colspan="4" class="text-center py-4">No users found</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

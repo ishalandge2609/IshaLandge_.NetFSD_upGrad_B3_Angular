@@ -1,0 +1,287 @@
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-6 fade-in">
+
+        <h1>
+          Beautiful <span>Home Decor</span> &amp; More
+        </h1>
+
+        <p>
+          Discover furniture, lighting, planters,
+          kitchen essentials and more — all at the best prices.
+          Free shipping on orders above ₹3,000.
+        </p>
+
+        <div class="d-flex gap-3 flex-wrap">
+
+          <a
+            routerLink="/products"
+            class="btn btn-primary btn-lg"
+          >
+            Shop Now
+            <i class="bi bi-arrow-right-short"></i>
+          </a>
+
+          <button
+            class="btn btn-outline-light btn-lg"
+            (click)="scrollToFeatured()"
+          >
+            Explore Products
+            <i class="bi bi-arrow-right-short"></i>
+          </button>
+
+        </div>
+      </div>
+
+      <div
+        class="col-lg-6 d-none d-lg-block text-center fade-in"
+        style="font-size:160px;opacity:0.15;user-select:none"
+      >
+        
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Featured Products -->
+<section class="py-5" id="featured">
+
+  <div class="container">
+
+    <div class="mb-4">
+
+      <div class="section-line"></div>
+
+      <h2 class="section-heading">
+        Featured Products
+      </h2>
+
+      <p class="section-sub">
+        Handpicked top products just for you
+      </p>
+
+    </div>
+
+    <div class="row">
+
+      <div
+        *ngIf="loading"
+        class="col-12 text-center py-5"
+      >
+        <div
+          class="spinner-border text-primary"
+          role="status"
+        ></div>
+      </div>
+
+      <div
+        *ngFor="let product of featuredProducts"
+        class="col-md-6 col-lg-3 mb-4"
+      >
+
+        <div class="product-card fade-in">
+
+          <div class="card-img-wrap">
+
+            <img
+              [src]="productService.getFullImageUrl(product.imageUrl)"
+              [alt]="product.name"
+              loading="lazy"
+            />
+
+            <span class="card-category">
+              {{ product.category }}
+            </span>
+
+          </div>
+
+          <div class="card-body">
+
+            <div class="card-title">
+              {{ product.name }}
+            </div>
+
+            <div class="card-desc">
+              {{ product.description }}
+            </div>
+
+            <div class="card-price">
+              {{ formatPrice(product.price) }}
+              <small>/unit</small>
+            </div>
+
+            <div class="card-actions">
+
+              <a
+                [routerLink]="['/product', product.id]"
+                class="btn-details"
+              >
+                Product Details
+              </a>
+
+              <button
+                class="btn-addcart"
+                (click)="addToCart(product)"
+              >
+                <i class="bi bi-cart-plus me-1"></i>
+                Add to Cart
+              </button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-3">
+
+      <a
+        routerLink="/products"
+        class="btn btn-outline-primary btn-lg"
+      >
+        View All Products
+        <i class="bi bi-arrow-right-short"></i>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- Category Showcase -->
+<section class="py-5" style="background:#f8f9fa">
+
+  <div class="container">
+
+    <div class="mb-4 text-center">
+
+      <div class="section-line mx-auto"></div>
+
+      <h2 class="section-heading">
+        Shop by Category
+      </h2>
+
+      <p class="section-sub">
+        Find exactly what you need for every corner of your home
+      </p>
+
+    </div>
+
+    <div class="row g-3 justify-content-center">
+
+      <div
+        class="col-6 col-md-4 col-lg-2"
+        *ngFor="let cat of categories"
+      >
+
+        <a
+          routerLink="/products"
+          [queryParams]="{cat: cat.name}"
+          class="category-tile"
+        >
+
+          <span class="cat-icon">
+            <i [class]="cat.icon"></i>
+          </span>
+
+          <span class="cat-label">
+            {{ cat.name }}
+          </span>
+
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why ShopEZ -->
+<section class="py-5" style="background:#fff">
+
+  <div class="container">
+
+    <div class="text-center mb-5">
+
+      <div class="section-line mx-auto"></div>
+
+      <h2 class="section-heading">
+        Why ShopEZ?
+      </h2>
+
+    </div>
+
+    <div class="row g-4 text-center">
+
+      <div class="col-md-3">
+
+        <div class="feature-card">
+
+          <span class="icon">
+            <i class="bi bi-truck"></i>
+          </span>
+
+          <h5>Fast Delivery</h5>
+
+          <p>
+            Free shipping on orders above ₹50,000.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="feature-card">
+
+          <span class="icon">
+            <i class="bi bi-shield-lock"></i>
+          </span>
+
+          <h5>Secure Payment</h5>
+
+          <p>
+            256-bit SSL encrypted checkout.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="feature-card">
+
+          <span class="icon">
+            <i class="bi bi-arrow-return-left"></i>
+          </span>
+
+          <h5>Easy Returns</h5>
+
+          <p>
+            7-day hassle-free return policy.
+          </p>
+
+        </div>
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="feature-card">
+
+          <span class="icon">
+            <i class="bi bi-patch-check"></i>
+          </span>
+
+          <h5>Genuine Products</h5>
+
+          <p>
+            100% authentic from verified sellers.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
